@@ -1,0 +1,879 @@
+[//文明
+        {
+		"name": "Spectator",
+		"outerColor": [255,255,255]
+//		"innerColor": [255,255,255]
+	},
+	{
+		"name": "冲击区域",
+		"adjective": ["X"],
+		"cityStateType": "Militaristic",
+		"declaringWar": "我们寻求的东西就是对你们的战争！",
+		"attacked": "是什么导致你变成了这个样子？",
+		"defeated": "这是否有些快速了？",
+		"outerColor": [0,0,0],
+		"innerColor": [250,128,114],
+		"cities": ["冲击区域"]
+	},
+	{
+		"name": "最高博物馆",
+		"adjective": ["X"],
+		"cityStateType": "Cultured",
+		"declaringWar": "这是伟大历史的又一次见证。",
+		"attacked": "你们说的话，我听得一清二楚。",
+		"defeated": "不要被困难所折服了。",
+		"outerColor": [0,0,0],
+		"innerColor": [152,0,2],
+		"cities": ["最高博物馆"]
+	},
+	{
+		"name": "树林",
+		"adjective": ["X"],
+		"cityStateType": "Maritime",
+		"declaringWar": "你难道真的忘了吗？",
+		"attacked": "不要放火好吗？",
+		"defeated": "难闻的气味。",
+		"outerColor": [0,0,0],
+		"innerColor": [0,102,102],
+		"cities": ["树林"]
+	},
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+        "innerColor": [185,12,12],
+		"uniques": ["Can only heal by pillaging", "Excluded from map editor",
+			"[Water] units gain the [Unable to pillage tiles] promotion"]
+	},
+	    {
+		"name": "东方城市群",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "我并不知道你还在期待着些什么。如果我是你的话，我会采取暴力，你所不能想象的暴力，来扼制所被加以期待的可能性的反动希望。懦弱的日子已经过去了，我现在不希望我们有一个比那深刻的印象中的伤痕是我给我们带来的懦弱更加懦弱。现在你的决定和你所想要规划的一切已经被绑定了，如你所见，你坐到了这把椅子上，所以你更应扯断它的脊柱，而不是享受来自偶然间的快感，存在与屈辱的炼狱中的按摩。折磨、伤痛，他已经给我们带来了很多不必要的感情，我不希望你不会成为我们的第三者，所以现在我希望你立刻做出一些实质的东西，包括那些宏大的、富想象的、具有前程的，把他们拎出来，烧到薪火勾起的柴堆里，那正熊熊燃烧的森林里，把你和我们的一切行动向所有的敌人们展示出来。",//介绍第1段
+		"startIntroPart2": "忘了你的过去吧，让我们成为多数者。",//介绍第2段
+		"declaringWar": "干涉！",//宣战
+		"attacked":"反击！",//被宣战
+		"defeated": "迎接我们的将会是垮散与分离，但是人民不会倒下。",//似了
+        "introduction": "在这里碰到了你啊。",//初见
+        "neutralHello": "敬礼！",//中立问候
+        "hateHello": "好啊。",//战争时问候
+        "tradeRequest": "对方向你投递了一份交易申请。",//向玩家申请交易时
+		"outerColor": [96,109,161],//文明副色
+		"innerColor": [251,153,102],//文明主色
+		"uniqueName": "特殊攻击",
+		"uniqueText": "可在当前回合选择下回合的综合战斗力加成\n战略偏好：陆地近战单位对战陆地近战单位+15%[Strength]\n战略偏好：陆地远程单位对战陆地远程单位+15%[Strength]\n战略偏好：陆地军事单位对战攻城单位当攻击时+50%[Strength]",
+        "uniques": [//防止开关两键重复出现
+        //默认关闭
+        "Provides a [战略偏好-选择-关闭] in your first [1] cities for free",
+        //隐藏建筑使用权
+        "Provides [1] [战略重心]",
+        //民族加成判定
+        "[+15]% Strength <for [{Melee} {Land}] units> <vs [{Melee} {Land}] units> <when above [0] [战略偏好-近程]>",
+        "[+15]% Strength <for [{Ranged} {Land}] units> <vs [{Ranged} {Land}] units> <when above [0] [战略偏好-远程]>",
+        "[+50]% Strength <for [{Military} {Land}] units> <vs [Siege] units> <when attacking> <when above [0] [战略偏好-守城]>",
+        "Provides [-1] [战略偏好-近程] <when above [0] [战略偏好-近程]>",
+        "Provides [-1] [战略偏好-远程] <when above [0] [战略偏好-远程]>",
+        "Provides [-1] [战略偏好-守城] <when above [0] [战略偏好-守城]>",
+        ],//文明特性
+		"cities": ["芹会","元青","流苏","光风","桃冬","云乌","瑰园"]//城市名	
+	    },
+	    {
+		"name": "焚毁的花园",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "我们的关系，自此走上断桥了呢。",//宣战
+		"attacked":"终究是来了。",//被宣战
+		"defeated": "还是争不过你啊。",//似了
+        "introduction": "看起来，有人来了呢。",//初见
+        "neutralHello": "这个时间点，原来是你呀。",//中立问候
+        "hateHello": "再贴近些吧，最好把你的脖颈贴上来。",//战争时问候
+        "tradeRequest": "协议、交易、或者友好的往来，都放在这一句话里了，希望你能同意呢。",//向玩家申请交易时
+		"outerColor": [111,153,134],//文明副色
+		"innerColor": [205,237,222],//文明主色
+		"uniqueName": "园艺艺术品",
+		"uniqueText": "军事单位获得特殊的晋升项目：\n在陆地地块上作战时+15%[Strength]\n位于相邻陆地地块上的敌方军事单位+15%[Strength]",
+        "uniques": [
+        "[Military] units gain the [精华] promotion"],//文明特性
+		"cities": ["莉连茨","纳未","安娜托克","诺尼克","敏兰","夏明耶露","叶尔木"]//城市名
+	    },
+	    {
+		"name": "血纹章",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "不要触动它！",//宣战
+		"attacked":"你想干什么？",//被宣战
+		"defeated": "耗不过。",//似了
+        "introduction": "原来你在这儿。",//初见
+        "neutralHello": "不错。",//中立问候
+        "hateHello": "滚。",//战争时问候
+        "tradeRequest": "签吧，签了就好了。",//向玩家申请交易时
+		"outerColor": [195,0,46],//文明副色
+		"innerColor": [39,41,43],//文明主色
+		"uniqueName": "慎始如终",
+		"uniqueText": "军事单位获得特殊的晋升项目：\n被击败时获得35单位[荣誉]，当回合结束时[荣誉]不少于100则立即消耗100[荣誉]，并使所有具有[耻辱]的单位持续4回合+1移动力，且进行移动力损耗计算时忽略负面影响",
+        "uniques": [
+        "[Military] units gain the [耻辱] promotion",
+        "Provides [-100] [荣誉] <every [1] turns> <when above [99] [荣誉]>",
+        "Provides [4] [荣誉计数器] <every [1] turns> <when above [99] [荣誉]>",
+        "Provides [-1] [荣誉计数器] <every [1] turns> <when above [0] [荣誉计数器]>",],//文明特性
+		"cities": ["克运","诺维安","图加","迪莱","林兰克","迪亚","泽拉"]//城市名
+	    },
+	    {
+		"name": "重生",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "战争带来死亡。",//宣战
+		"attacked":"所有人终将死去。",//被宣战
+		"defeated": "而我会复生于此。",//似了
+        "introduction": "这里不一定是个好地方，对吧。",//初见
+        "neutralHello": "回来了。",//中立问候
+        "hateHello": "停止对我的接近。",//战争时问候
+        "tradeRequest": "仅仅只是一份请求。",//向玩家申请交易时
+		"outerColor": [15,21,34],//文明副色
+		"innerColor": [153,0,102],//文明主色
+		"uniqueName": "灾难般",
+		"uniqueText": "军事单位从战斗中获得的经验+25%\n近战单位当防御时与远程单位相邻时或远程单位当防御时与近战单位相邻时+5%[Strength]\n军事单位获得特殊的晋升项目：\n可以通过晋升[垢病]获得[复苏]的晋升权，随后每次可以通过消耗一次晋升的机会恢复此单位100HP",
+        "uniques": [
+        "[Military] units gain the [死灰] promotion",
+        "[+5]% Strength <when defending> <for [Melee] units> <when adjacent to a [Ranged] unit>",
+        "[+5]% Strength <when defending> <for [Ranged] units> <when adjacent to a [Melee] unit>",
+        "[+25]% XP gained from combat <for [Military] units>"],//文明特性
+		"cities": ["法莱尔","乡死","公牛首","锈花","废火气","空区","炼狱"]//城市名
+	    },
+	    {
+		"name": "鼠疫",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "不要接近我。",//宣战
+		"attacked":"我现在浑身发冷。",//被宣战
+		"defeated": "可以帮帮我吗？",//似了
+        "introduction": "我们可以早一点见面的。",//初见
+        "neutralHello": "一切安好吗？",//中立问候
+        "hateHello": "可能，这只是一点变动。",//战争时问候
+        "tradeRequest": "能帮我的话，尽力去做吧。",//向玩家申请交易时
+		"outerColor": [58,46,64],//文明副色
+		"innerColor": [198,186,169],//文明主色
+		"uniqueName": "无辜之人，受害者",
+		"uniqueText": "自第1回合起，每5回合失去25[Gold]\n陆地军事单位获得特殊的晋升项目：\n当攻击时-15%[Strength]\n位于崎岖地块上当攻击时-15%[Strength]\n位于开阔地块上当攻击时-15%[Strength]\n在崎岖地块上作战当攻击时-10%[Strength]\n当防御时-15%[Strength]\n位于崎岖地块上当防御时-10%[Strength]\n位于开阔地块上当防御时-10%[Strength]\n相邻敌方单位-30%[Strength]",
+        "uniques": [
+        "[{Land} {Military}] units gain the [寒疾] promotion",
+        "Gain [-25] [Gold] <every [5] turns> <upon turn end> <after turn number [1]>",
+        "Provides [-1] [绽放] <every [1] turns> <when above [0] [绽放]>",],//文明特性
+		"cities": ["梅都","岩桐","波斯菊","金鱼草","金盏花","紫丁香","秋牡丹"]//城市名
+	    },
+	    {
+		"name": "废弃蒸汽都市",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "请清醒一下。",//宣战
+		"attacked":"被给予帮助的害虫仍是害虫。",//被宣战
+		"defeated": "有恩就有仇。",//似了
+        "introduction": "沉沦之都是只有劣等人才能窥见的。",//初见
+        "neutralHello": "快去问问那些无知的人吧。",//中立问候
+        "hateHello": "贱货。",//战争时问候
+        "tradeRequest": "你要是觉得不合理，你完全可以选择不作裁定。",//向玩家申请交易时
+		"outerColor": [47,47,55],//文明副色
+		"innerColor": [176,177,144],//文明主色
+		"uniqueName": "沉沦之都",
+		"uniqueText": "前8座城市提供一座免费的[废弃的巨型工厂]，每座[废弃的巨型工厂]为每回合提供一点[生锈的产能]\n[生锈的产能]可以通过[废弃的转化炉]在一座城市内完全消耗并转化为向下取整的已有[生锈的产能]数量½的[Production]回合产出\n(对于[生锈的产能]的转化可视作每有1单位[生锈的产能]则在1回合内转化目标城市0.5[Production]，并向下取整)",
+        "uniques": [
+        "Provides a [废弃的巨型工厂] in your first [8] cities for free",
+        "Provides [1] [赫菲斯托斯石像]",],//文明特性
+		"cities": ["莉莉安诺","新机械伞","五区","小雨","幼奈","主要城市","杂区"]//城市名
+	    },
+	    {
+		"name": "我们的天空",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "看，这就是探寻。",//宣战
+		"attacked":"谁允许你这么做的？",//被宣战
+		"defeated": "也许，我能带来的光耀只有这一场灭亡了。",//似了
+        "introduction": "看看这儿，这是哪儿？",//初见
+        "neutralHello": "看看天吧。",//中立问候
+        "hateHello": "这里不是你该来的地方。",//战争时问候
+        "tradeRequest": "请同意下来吧。",//向玩家申请交易时
+		"outerColor": [0,57,88],//文明副色
+		"innerColor": [0,167,177],//文明主色
+		"uniqueName": "无言的未来",
+		"uniqueText": "建造[坠落]以触发[自天空中坠落]事件(通过触发[自天空中坠落]以选择不同的收益，通常为随机[Gold]的增与减，免费的[特务]出现，首都人口的减少，极小概率下[神之主]的出现)",
+        "uniques": ["Provides [1] [天上白]"],//文明特性
+		"cities": ["璨梦夕","艾丽欧诺拉","卢米奈尔","凯卢莫拉","莫尔福里亚","芙文","艾莉斐尔"]//城市名
+	    },
+	    {
+		"name": "临时酒馆",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "思考片刻后，他们向你发起了进攻。",//宣战
+		"attacked":"他们被你宣战了！他们将面临着什么？",//被宣战
+		"defeated": "他们自己葬送了自己。",//似了
+        "introduction": "他们与你相遇了。",//初见
+        "neutralHello": "这是他们与你的又一次见面。",//中立问候
+        "hateHello": "他们看起来不太融洽。",//战争时问候
+        "tradeRequest": "他们在和你准备着这项贸易。",//向玩家申请交易时
+		"outerColor": [48,65,95],//文明副色
+		"innerColor": [165,142,162],//文明主色
+		"uniqueName": "野小猫与鸡尾酒",
+		"uniqueText": "所有单位获得特殊的晋升项目：\n自第2回合起的偶数回合内视野+1\n限5次，如果该单位在当前回合内[Movement]未消耗殆尽，可以通过手动触发的方式一次性获得1[Movement]",
+        "uniques": ["[All] units gain the [制酿] promotion",
+        "Provides [1] [通用计数器] <when between [0] and [0] [通用计数器]>"
+        "Provides [-1] [通用计数器] <when between [1] and [1] [通用计数器]>"],//文明特性
+		"cities": ["兰都","卡尔瓦多斯","阿佩罗","费内特布兰卡","梅斯卡尔","卡齐米尔","金巴利"]//城市名
+	    },
+	     {
+		"name": "公共雪中之馆",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "度量战争的时间一般是年，而人们每年都会因为传统而庆祝新一年的到来。",//宣战
+		"attacked":"妈的，失算了。",//被宣战
+		"defeated": "到这个时间上已经很好了，对我而言。接下来我会去另一个地方，再也不见。",//似了
+        "introduction": "你很特殊。",//初见
+        "neutralHello": "无关紧要的节点，不打招呼。",//中立问候
+        "hateHello": "战争的背后是贸易。",//战争时问候
+        "tradeRequest": "这些不是我的想法。",//向玩家申请交易时
+		"outerColor": [225,218,217],//文明副色
+		"innerColor": [77,58,89],//文明主色
+		"uniqueName": "自私安乐",
+		"uniqueText": "建立一座新城市时立即获得3单位[雪馆]\n回合结束时，如果[雪馆]的数量大于0，那么消耗1个[雪馆]，使所有城市必定发生一次文化扩张(或者可以视为：拥有[雪馆]时，所有城市自然[Culture]扩张的需求-100%，但在回合结束时消耗1单位[雪馆])",
+        "uniques": ["Instantly provides [3] [雪馆] <upon founding a city>",
+        "Provides [-1] [雪馆] <when above [0] [雪馆]>",
+        "[-100]% Culture cost of natural border growth [in all cities] <when above [0] [雪馆]>"],//文明特性
+		"cities": ["百合馆","浴乡馆","清酒馆","枣间馆","容客所","樱香馆","祭所","舞馆","凤&鸟"]//城市名
+	    },
+	    {
+		"name": "幼芽与群苗",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "群众，血光之怒，诏战。",//宣战
+		"attacked":"你们，冷心冷面，无耻。",//被宣战
+		"defeated": "最后，无言抵败，退下。",//似了
+        "introduction": "你好，我的朋友，再见。",//初见
+        "neutralHello": "看呐，他们来了，你好。",//中立问候
+        "hateHello": "妈的，你还有脸，快爬。",//战争时问候
+        "tradeRequest": "是的，我想交易，请见。",//向玩家申请交易时
+		"outerColor": [113,135,113],//文明副色
+		"innerColor": [255,217,163],//文明主色
+		"uniqueName": "分界阶梯",
+		"uniqueText": "军事单位获得特殊的晋升项目：\n攻击敌方单位时当[阶梯阵距]不大于8时获得1单位[阶梯阵距]\n攻击时获得3*(x+1)%的[Strength]加成(x为当前[阶梯阵距]的数量)，如果当前[阶梯阵距]不小于8，则攻击时仅获得12%的[Strength]加成(回合结束时[阶梯阵距]清零)",
+        "uniques": ["[Military] units gain the [阶梯] promotion",
+        "Provides [-1] [阶梯阵距] <when between [1] and [1] [阶梯阵距]>",
+        "Provides [-2] [阶梯阵距] <when between [2] and [2] [阶梯阵距]>",
+        "Provides [-3] [阶梯阵距] <when between [3] and [3] [阶梯阵距]>",
+        "Provides [-4] [阶梯阵距] <when between [4] and [4] [阶梯阵距]>",
+        "Provides [-5] [阶梯阵距] <when between [5] and [5] [阶梯阵距]>",
+        "Provides [-6] [阶梯阵距] <when between [6] and [6] [阶梯阵距]>",
+        "Provides [-7] [阶梯阵距] <when between [7] and [7] [阶梯阵距]>",
+        "Provides [-8] [阶梯阵距] <when between [8] and [8] [阶梯阵距]>",
+        "Provides [-9] [阶梯阵距] <when between [9] and [9] [阶梯阵距]>"
+		],//文明特性
+		"cities": ["蔷薇河","好看的岛屿","野国王","丛森林","低礼帽","长湖士兵","冰冻森林"]//城市名
+	    },
+	    {
+		"name": "铜制品",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "从一开始我们就在想着从你这里得到些什么。",//宣战
+		"attacked":"无耻者！无耻徒！",//被宣战
+		"defeated": "真的就要这么简单的死去了吗？",//似了
+        "introduction": "不要这么看着我。",//初见
+        "neutralHello": "我的话，最近还有东西要忙。",//中立问候
+        "hateHello": "我本来没有什么事情的，你一来，我觉得我需要干点什么。",//战争时问候
+        "tradeRequest": "这是我的想法，请接受。",//向玩家申请交易时
+		"outerColor": [104,20,20],//文明副色
+		"innerColor": [215,204,182],//文明主色
+		"uniqueName": "裁剪",
+		"uniqueText": "近战军事单位获得特殊的晋升项目：\n击败一个敌方单位时有25%的概率将其俘获\n击败一个敌方单位时获得1单位[废料]\n被击败时若与其他友方远程单位相邻获得2单位[废料]\n远程军事单位获得特殊的晋升项目：\n击败一个敌方单位时有15%的概率将其俘获\n击败一个敌方单位时获得1单位[废料]\n被击败时若与其他友方近战单位相邻获得2单位[废料]",
+        "uniques": ["[{Melee} {Military}] units gain the [裁剪-近战] promotion",
+        "[{Ranged} {Military}] units gain the [裁剪-远程] promotion",
+		],//文明特性
+		"cities": ["怀表寄存体","护林河","池中树","莫堡","卡兹胡特","葡萄酒","复合偶像"]//城市名
+	    },
+	    {
+		"name": "孤寂春天",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "我这么做并不好，我明白。以后，有时间的话，和好好吗？",//宣战
+		"attacked":"你干什么？",//被宣战
+		"defeated": "现在是夏天。",//似了
+        "introduction": "嘿嘿，你好哟。",//初见
+        "neutralHello": "哇，又下雨了。",//中立问候
+        "hateHello": "哦，又下雨了。",//战争时问候
+        "tradeRequest": "就是一次交易。",//向玩家申请交易时
+		"outerColor": [87,54,93],//文明副色
+		"innerColor": [224,218,216],//文明主色
+		"uniqueName": "春雨季",
+		"uniqueText": "陆地军事单位获得特殊的晋升项目：\n位于开阔地形时视野+1\n位于[Hill]地块时视野+1\n与[Hill]地位相邻时视野+1\n处于交战状态时视野+1",
+        "uniques": ["[{Land} {Military}] units gain the [涩雨] promotion",
+        ],//文明特性
+		"cities": ["未风","档岚","夕库","兹差","虹欧","余丝","凤都"]//城市名
+	    },
+	    {
+		"name": "冬季灰烬",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "出去看看雪吧。",//宣战
+		"attacked":"讨厌的东西。",//被宣战
+		"defeated": "令人压抑啊！",//似了
+        "introduction": "这儿人好多啊。",//初见
+        "neutralHello": "好。",//中立问候
+        "hateHello": "觉得累了，安。",//战争时问候
+        "tradeRequest": "往来分善恶。",//向玩家申请交易时
+		"outerColor": [0,61,116],//文明副色
+		"innerColor": [174,208,238],//文明主色
+		"uniqueName": "冬春",
+		"uniqueText": "在任意城市中建造[落子]以停止该城市中的人口增长并获得1单位[储备]\n在任意城市中建造[结生]使该城市的人口增长+100%并消耗1单位[储备]",
+        "uniques": ["Provides [1] [赫麦拉谷]",
+        ],//文明特性
+		"cities": ["胡桃花","南江花海","共虚港","山北","陌南","梨术","九年"]//城市名
+	    },
+	    {
+		"name": "群星璀璨",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "战争的礼物，真正的利益。",//宣战
+		"attacked":"汗水如雨下。",//被宣战
+		"defeated": "壮烈牺牲，壮烈牺牲。",//似了
+        "introduction": "偶然间的画作会体现出你是否有成为艺术家的能力。",//初见
+        "neutralHello": "抱着必死的态度涌然一跃。",//中立问候
+        "hateHello": "如果我在战场上倒下了，你会扶我吗？",//战争时问候
+        "tradeRequest": "揣测不是我们所希望的。",//向玩家申请交易时
+		"outerColor": [92,79,85],//文明副色
+		"innerColor": [248,198,181],//文明主色
+		"uniqueName": "钢铁的最后一个礼物",
+		"uniqueText": "额外拥有4单位补给\n如果城市有军队驻扎那么在这个城市中每2人口额外获得1单位补给\n可以通过建造[林兰歌剧院]一次性获得3个免费的[舞者]并有75%的概率额外获得1个免费的[舞者]([林兰歌剧院]的[Production]花费与[舞者]的战斗力随时代更新呈正比上升)",
+        "uniques": ["Provides [1] [无处藏身]",
+        "[4] Unit Supply",
+        "[1] Unit Supply per [2] population [in this city]"
+        ],//文明特性
+		"cities": ["灰色教堂","林兰","西亚","布兰卡","林佩","帕加","泰拉"]//城市名
+	    },
+	    {
+		"name": "黎明古堡",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "去死吧战争。",//宣战
+		"attacked":"谁在挂念？又是谁在引路？",//被宣战
+		"defeated": "夜明灯光最后一刻闪烁时。",//似了
+        "introduction": "我们全然不知一个时代将要到来了。",//初见
+        "neutralHello": "给我柑橘、酒水和鲜血。",//中立问候
+        "hateHello": "冷啊，真是冷啊。",//战争时问候
+        "tradeRequest": "气氛决定人性不决定贸易。",//向玩家申请交易时
+		"outerColor": [0,49,83],//文明副色
+		"innerColor": [229,221,215],//文明主色
+		"uniqueName": "叹为观止",
+		"uniqueText": "建立一座新城市时立即获得1单位[精致]\n从远古时代开始，每进入一个新时代就立即获得2单位[精致]\n初始拥有3单位[精致]\n可以通过建造[转化叶]转化1单位[精致]为1单位[光茫](建造[转化叶]视为预计转化，[精致]与[光茫]的实际转化发生在预计转化后下个属于该文明的回合时，或者可以视为是文明获取单回合收入结算时，如果此时拥有[光茫]则失去1单位[光茫])\n陆地军事单位获得特殊的晋升项目：\n拥有[光茫]且位于非敌国领土时当防御时+100%战斗力",
+        "uniques": ["Provides [1] [赤色黎明]",
+        "Provides [-1] [光茫] <when above [0] [光茫]>",
+        "[{Land} {Military}] units gain the [黎明之声] promotion",
+        "Instantly provides [1] [精致] <upon founding a city>",
+        "Instantly provides [2] [精致] <upon entering a new era>",
+        "Instantly provides [3] [精致]",],//文明特性
+		"cities": ["爱丽丝塔","卡德罗斯","艾芙洛","维伦","希洛汀","雅吉尔斯","曼金顿"]//城市名
+		},
+		{
+		"name": "玫瑰海",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "把算计抛之脑后，现在是博弈时间。",//宣战
+		"attacked":"出生入死。",//被宣战
+		"defeated": "那么剩下的这些又有谁来赔付呢。",//似了
+        "introduction": "你和他们不一样。",//初见
+        "neutralHello": "您在为谁做着贡献？",//中立问候
+        "hateHello": "很好，这是一个问题。",//战争时问候
+        "tradeRequest": "他们让你干什么？",//向玩家申请交易时
+		"outerColor": [0,27,23],//文明副色
+		"innerColor": [204,10,67],//文明主色
+		"uniqueName": "同时也是危险的地方",
+		"uniqueText": "近战单位获得特殊的晋升项目：\n对战受伤单位+20%战斗力\n消灭敌方单位时恢复25HP\n与[City center]相邻时只能攻击城市\n远程单位获得特殊的晋升项目: \n处于满血状态时+40%战斗力\n消灭敌方单位时恢复25HP\n不与[City center]相邻时只能攻击非空军单位",
+        "uniques": ["[Melee] units gain the [有刺] promotion",
+        "[Ranged] units gain the [无刺] promotion"],//文明特性
+		"cities": ["红染料","附伦菲","伽略兰","未格托","灰和露","卢拉金","雷科琳莫"]//城市名
+	    },
+	    {
+		"name": "渴望病态",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "病态是一种受保护态，激发人的软弱与被保护感，渴望病态的人在社会生活中常以微弱的自强自居，但在软弱的时候会自然且不可控的激发渴望的病态，常常会伪装、欺诈他人以使他人相信自己是软弱的、生病的、需要被保护的来换取日常生活中所得不到的那份珍贵的慰藉。",//介绍第1段
+		"declaringWar": "我不想这么做。",//宣战
+		"attacked":"不要这么做。",//被宣战
+		"defeated": "你干了些什么。",//似了
+        "introduction": "您好。",//初见
+        "neutralHello": "现在是最安静的时间。",//中立问候
+        "hateHello": "我不希望这种状态一直持续下去。",//战争时问候
+        "tradeRequest": "我被逼迫了。",//向玩家申请交易时
+		"outerColor": [62,81,110],//文明副色
+		"innerColor": [231,197,130],//文明主色
+		"uniqueName": "寻求病态",
+		"uniqueText": "该文明无任何特殊能力",
+        "uniques": [""],//文明特性
+		"cities": ["濒临死刑前的最后一碗温水","月光下响着嘹亮声音的老收音机","一段旅途上势必会遇到的一些形形色色的人","最后的记忆中不存在的每一件事","海洋中死去但尚未腐烂的尸体","最后一个失去生命的人","无法凝视的虚无中的一片废墟"]//城市名
+	    },
+	    {
+		"name": "死亡痕迹",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "没有人可以承受死亡的代价。",//宣战
+		"attacked":"那些是歪理！",//被宣战
+		"defeated": "你是胜利者，你不应该犹豫。",//似了
+        "introduction": "现在我给你两个选择，第一会让你好好的活着，第二会让你直接死去，你会选择哪一个？",//初见
+        "neutralHello": "不需要纠结那个问题，当我没问。",//中立问候
+        "hateHello": "是时候谈谈关于死亡的话题了。",//战争时问候
+        "tradeRequest": "打起精神来。",//向玩家申请交易时
+		"outerColor": [102,43,31],//文明副色
+		"innerColor": [255,251,199],//文明主色
+		"uniqueName": "留下印记",
+		"uniqueText": "近战单位获得特殊的晋升项目：\n单次战斗中丢失至少50HP时获得特殊的晋升项目：立即恢复该单位100HP，+100%战斗力，防御时+100%战斗力，回合结束时失去50HP，只能通过劫掠恢复生命值，攻击后可移动，+2[Movement]\n远程单位获得特殊的晋升项目：\n单次战斗中丢失至少50HP时获得特殊的晋升项目：立即恢复该单位100HP，+100%战斗力，防御时+100%战斗力，回合结束时失去50HP，只能通过劫掠恢复生命值，攻击后可移动，+2[Movement]，只能攻击非空军单位",
+        "uniques": ["[Melee] units gain the [死亡印记-近战] promotion",
+        "[Ranged] units gain the [死亡印记-远程] promotion"],//文明特性
+		"cities": ["黑魂","重叠","科尔芬","帕西","德劳斯","凯洛","森克雷特"]//城市名
+	    },
+	    {
+		"name": "漫画协会",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "这里没有狂热的人。",//宣战
+		"attacked":"欢迎你。",//被宣战
+		"defeated": "永远不会被苦难折磨的人来自地狱。",//似了
+        "introduction": "我们会在山头上相见。",//初见
+        "neutralHello": "不好意思了。",//中立问候
+        "hateHello": "你是怎么说出这种话的？",//战争时问候
+        "tradeRequest": "快快，多拿出一些。",//向玩家申请交易时
+		"outerColor": [164,47,31],//文明副色
+		"innerColor": [232,168,75],//文明主色
+		"uniqueName": "非共同组织",
+		"uniqueText": "军事单位获得特殊的晋升项目：\n当不与友方单位相邻时拥有+25%战斗力，与友方单位相邻时获得-25%战斗力以抵消独立作战时的战斗力加成\n处于异国领土恢复时额外+5HP",
+        "uniques": ["[Military] units gain the [会员] promotion"],//文明特性
+		"cities": ["伊庭","金原","神永","津村","日下石","狐冢","杉本"]//城市名
+	    },
+	    {
+		"name": "跨时空对话",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "你的□□□怒□我。",//宣战
+		"attacked":"我□，现在□□？",//被宣战
+		"defeated": "□□□□□□□□□。",//似了
+        "introduction": "听□见吗？",//初见
+        "neutralHello": "□么早过□吗？",//中立问候
+        "hateHello": "你会□你愚□的□动付出代□！",//战争时问候
+        "tradeRequest": "往来□贸□，是否□□象□着友□呢？",//向玩家申请交易时
+		"outerColor": [13,2,51],//文明副色
+		"innerColor": [112,77,169],//文明主色
+		"uniqueName": "通话阻碍",
+		"uniqueText": "军事单位对战城市当防御时+200%战斗力",
+        "uniques": ["[+200]% Strength <for [Military] units> <vs cities> <when defending>"],//文明特性
+		"cities": ["什一空间","点歌厅","堆积房","回廊尽头的酒吧","泰坦克斯","后屋","尘土尘埃"]//城市名
+	    },
+	    {
+		"name": "最终联合",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "为被迫害者陪葬。",//宣战
+		"attacked":"我现在不需要休息。",//被宣战
+		"defeated": "生与死在这里并不掌握在死神的手上。",//似了
+        "introduction": "哪里是灵魂安息的地方？",//初见
+        "neutralHello": "我无法保证我的每一个想法都是有意义的。",//中立问候
+        "hateHello": "永远不要把信任推向一个公众的宠儿。",//战争时问候
+        "tradeRequest": "你是邪恶者？或者我是邪恶者？",//向玩家申请交易时
+		"outerColor": [70,94,101],//文明副色
+		"innerColor": [201,158,140],//文明主色
+		"uniqueName": "封锁",
+		"uniqueText": "无法组建[Worker]或[Work Boats]\n自游戏开始后的第1回合每经过x回合立即获得1单位[手续](远古时代时x的数值为5，从古典时代开始，每经过一个时代使x的数值-1，进入启蒙时代以及启蒙时代后不响应)，在任意城市中可以通过消耗[手续]购买建筑以在一个特定的地块上建造当前科技已解锁的非[Road]或[Railroads]设施\n([手续]的获取方式可视为处于远古时代时每5回合获得1单位[手续]，处于古典时代时每4回合获得1单位[手续]，处于中古时代时每3回合获得1单位[手续]，再次进入新时代时维持每3回合获得1单位[手续]不变)",
+        "uniques": ["Cannot build [Worker] units",
+        "Cannot build [Work Boats] units",
+        "Instantly provides [1] [手续] <every [5] turns> <upon turn end> <during the [Ancient era]> <after turn number [1]>",
+        "Instantly provides [1] [手续] <every [4] turns> <upon turn end> <during the [Classical era]>",
+        "Instantly provides [1] [手续] <every [3] turns> <upon turn end> <during the [Medieval era]>",
+        "Instantly provides [1] [手续] <every [3] turns> <upon turn end> <during the [Renaissance era]>",
+        "Instantly provides [1] [手续] <every [3] turns> <upon turn end> <during the [Industrial era]>",
+        "Instantly provides [1] [手续] <every [3] turns> <upon turn end> <during the [Modern era]>",
+        "Instantly provides [1] [手续] <every [3] turns> <upon turn end> <during the [Atomic era]>",
+        "Instantly provides [1] [手续] <every [3] turns> <upon turn end> <during the [Information era]>",
+        "Instantly provides [1] [手续] <every [3] turns> <upon turn end> <during the [Future era]>",],//文明特性
+		"cities": ["保尔斯","旦克森","足利亚克","曼森金拉","泰亚明科","赫尔顿","明里雷安"]//城市名
+	    },
+	    {
+		"name": "秋夜街道",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "落叶要什么时候能飘起来呢。",//宣战
+		"attacked":"来吧，我是无所畏惧的人。",//被宣战
+		"defeated": "入土，落井。",//似了
+        "introduction": "嘿嘿，能交个朋友吗？",//初见
+        "neutralHello": "敌人未免不是朋友。",//中立问候
+        "hateHello": "朋友也未免不是敌人。",//战争时问候
+        "tradeRequest": "你不介意吧。",//向玩家申请交易时
+		"outerColor": [31,63,62],//文明副色
+		"innerColor": [213,225,179],//文明主色
+		"uniqueName": "于不可感知的地方穿梭",
+		"uniqueText": "军事单位获得特殊的晋升项目：\n忽视地块控制权\n远程单位获得特殊的晋升项目：\n远程攻击能越过障碍\n攻击后可移动",
+        "uniques": ["[Ranged] units gain the [迷失] promotion",
+        "[Military] units gain the [行走] promotion"],//文明特性
+		"cities": ["名秋","菊洋","辉合","夜间","橘兰","青系","白奈"]//城市名
+	    },
+	    {
+		"name": "雨童话",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "加予责任吧。",//宣战
+		"attacked":"你们要干什么？",//被宣战
+		"defeated": "流星雨那天我就许愿着我的死亡。",//似了
+        "introduction": "浩瀚的星河，我连观望也做不到，所以我只能想象。",//初见
+        "neutralHello": "尽力爬上了枝梢。",//中立问候
+        "hateHello": "你想听故事？",//战争时问候
+        "tradeRequest": "待会不会有太多的人。",//向玩家申请交易时
+		"outerColor": [223,229,232],//文明副色
+		"innerColor": [46,32,29],//文明主色
+		"uniqueName": "雨季森林的幼女",
+		"uniqueText": "给予首都一个可见的快乐加成以抵消在首都单城中因建立城市而引起的快乐减益",
+        "uniques": ["[+3 Happiness] [in capital]"],//文明特性
+		"cities": ["法兰伊堡","诺诺里安","塔罗斯","奇文顿","波里奈","莱意尔","巴尔墨干"]//城市名
+	    },
+	    {
+		"name": "阿莉娅教堂",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "我看见你们总是要战争。",//宣战
+		"attacked":"永远向阳的花朵，也会有她的阴暗面。",//被宣战
+		"defeated": "死在一天的骄阳烈日下。",//似了
+        "introduction": "至高无上，伸出手指无法探寻。",//初见
+        "neutralHello": "姑且给这些东西一点简单的定义。",//中立问候
+        "hateHello": "接受我。",//战争时问候
+        "tradeRequest": "强迫与意见有时是统一的。",//向玩家申请交易时
+		"outerColor": [47,32,57],//文明副色
+		"innerColor": [202,216,225],//文明主色
+		"uniqueName": "庇护所",
+		"uniqueText": "自游戏开始后的第1回合一旦获得任意单位/建造任意建筑便立即获得2[Faith]并获得1单位[圣洁](拥有[圣洁]时所有城市全产出+1，并且每回合消耗1单位[圣洁])",
+        "uniques": ["Gain [2] [Faith] <upon constructing [All]> <after turn number [1]>",
+        "Gain [2] [Faith] <upon gaining a [All] unit> <after turn number [1]>",
+        "Instantly provides [1] [圣洁] <upon constructing [All]> <after turn number [1]>",
+        "Instantly provides [1] [圣洁] <upon gaining a [All] unit> <after turn number [1]>",
+        "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Culture, +1 Science, +1 Faith] [in all cities] <when above [0] [圣洁]>",
+        "Provides [-1] [圣洁] <when above [0] [圣洁]>",
+        ],//文明特性
+		"cities": ["麦庭","末日朝夕","伊里","波尔根","查斯拉","卡米尼","丘顿"]//城市名
+	    },
+	    {
+		"name": "安息仪器",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "在寒天里冻得僵硬的诗人会也写下最美的诗篇。",//宣战
+		"attacked":"你这么做，是为了给谁看着？",//被宣战
+		"defeated": "空白是哪种白？",//似了
+        "introduction": "我这么频繁的发送我的动向，目的就是为了遇见你们。",//初见
+        "neutralHello": "我即未来，他成历史。",//中立问候
+        "hateHello": "今日不适合来访。",//战争时问候
+        "tradeRequest": "我不能伤害你。",//向玩家申请交易时
+		"outerColor": [19,19,19],//文明副色
+		"innerColor": [162,180,120],//文明主色
+		"uniqueName": "被观察者",
+		"uniqueText": "建立一座新城市时获得1项免费的科技\n建造任意建筑或建立新城市时触发全局警告(仅触发标明了提供产出类型的建筑)",
+        "uniques": ["Gain a free [一个未知的食物项目] [in this city] <upon constructing [Food]>",
+        "Gain a free [一个未知的产能项目] [in this city] <upon constructing [Production]>",
+        "Gain a free [一个未知的金钱项目] [in this city] <upon constructing [Gold]>",
+        "Gain a free [一个未知的快乐项目] [in this city] <upon constructing [Happiness]>",
+        "Gain a free [一个未知的文化项目] [in this city] <upon constructing [Culture]>",
+        "Gain a free [一个未知的科研项目] [in this city] <upon constructing [Science]>",
+        "Gain a free [一个未知的信仰项目] [in this city] <upon constructing [Faith]>",
+        "Gain a free [一座新的城市] [in this city] <upon founding a city>",
+        "Free Technology <upon founding a city>"
+        ],//文明特性
+		"cities": ["芙铃兰","克米汤尔","查洛索","西维明","盖加洛","琼斯","兰迪奥"]//城市名
+	    },
+	    {
+		"name": "林兰游击队",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "我们无法与你沟通。",//宣战
+		"attacked":"可惜我未曾面见过朝夕。",//被宣战
+		"defeated": "多年来的劳作，功亏一篑。",//似了
+        "introduction": "荒凉的地方。",//初见
+        "neutralHello": "为每一件事而努力。",//中立问候
+        "hateHello": "荣誉与勇士并不挂钩，鲜花才是。",//战争时问候
+        "tradeRequest": "只有在这个时候，我们一定是不平等的。",//向玩家申请交易时
+		"outerColor": [92,79,85],//文明副色
+		"innerColor": [248,198,181],//文明主色
+		"uniqueName": "整修",
+		"uniqueText": "额外拥有1单位补给\n从其他文明处借用城市名\n陆地近战单位获得特殊的晋升项目：\n发现[The Wheel]后可攻击后可移动\n军事单位获得特殊的晋升项目：\n奇数回合移动力恒为1，偶数回合具有双倍移动力，处于异国领土恢复时额外-5HP",
+        "uniques": ["[1] Unit Supply",
+        "[Military] units gain the [阻击战] promotion",
+        "Provides [1] [通用计数器] <when between [0] and [0] [通用计数器]>"
+        "Provides [-1] [通用计数器] <when between [1] and [1] [通用计数器]>",
+        "[{Melee} {Land}] units gain the [巷战] promotion",
+        "\"Borrows\" city names from other civilizations in the game"
+        ],//文明特性
+		"cities": ["林兰"]//城市名
+	    },
+	    {
+		"name": "月社",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "迎接好接下来繁忙的事物务。",//宣战
+		"attacked":"打消你的念头。",//被宣战
+		"defeated": "很快我们就会见面。",//似了
+        "introduction": "为弱小者献上花束。",//初见
+        "neutralHello": "两个人，不，三个人。",//中立问候
+        "hateHello": "现在是一个人。",//战争时问候
+        "tradeRequest": "奉上金钱。",//向玩家申请交易时
+		"outerColor": [64,33,84],//文明副色
+		"innerColor": [247,190,7],//文明主色
+		"uniqueName": "紫罗兰式慌张",
+		"uniqueText": "陆地远程单位获得特殊的晋升项目：\n当防御时[Strength]随血量下降而上升，至多50%",
+        "uniques": ["[{Land} {Ranged}] units gain the [起始] promotion",
+        ],//文明特性
+		"cities": ["里曼","泰米加莎","维基亚","文黎","西康斯","卡罗卡洛","吉通斯"]//城市名
+	    },
+	    {
+		"name": "档案管理所",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "来自某处的突击。",//宣战
+		"attacked":"你想做的是？",//被宣战
+		"defeated": "大家都不想说话。",//似了
+        "introduction": "这里是费园，一个连你自己的档案都能找到的地方。",//初见
+        "neutralHello": "枯竭的树木需要你的浇灌。",//中立问候
+        "hateHello": "来这里干什么？",//战争时问候
+        "tradeRequest": "敢吗？",//向玩家申请交易时
+		"outerColor": [127,60,93],//文明副色
+		"innerColor": [241,176,81],//文明主色
+		"uniqueName": "外围深处",
+		"uniqueText": "[Luxury resource]地块失去所有产出，位于[Luxury resource]地块2格范围内的城市+2[Happiness]",
+        "uniques": ["[-40 Production, -40 Food, -40 Gold, -40 Faith, -40 Culture, -40 Science, -40 Happiness] from every [Luxury resource]",
+            "[+2 Happiness] [in this city] <within [2] tiles of a [Luxury resource]>",
+        ],//文明特性
+		"cities": ["费园","修姆","雏琴","肯萨斯","永入","爱前","马陵"]//城市名
+	    },
+	    {
+		"name": "陵园",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "罪恶来自一张嘴。",//宣战
+		"attacked":"来，把你的尸体拉上。",//被宣战
+		"defeated": "这里的受害者永远无罪。",//似了
+        "introduction": "把话放干净点，这里不是死人堆。",//初见
+        "neutralHello": "这里安葬着希望。",//中立问候
+        "hateHello": "希望并不期待着你。",//战争时问候
+        "tradeRequest": "高歌吧。",//向玩家申请交易时
+		"outerColor": [5,60,77],//文明副色
+		"innerColor": [201,214,217],//文明主色
+		"uniqueName": "礼赞",
+		"uniqueText": "自远古时代开始，每经过一个时代使所有城市伟人点数生成速度+25%\n一旦研究[Philosophy]获得1个免费的[Great People]",
+        "uniques": ["[+25]% Great Person generation [in all cities] <during the [Ancient era]>",
+        "[+50]% Great Person generation [in all cities] <during the [Classical era]>",
+        "[+75]% Great Person generation [in all cities] <during the [Medieval era]>",
+        "[+100]% Great Person generation [in all cities] <during the [Renaissance era]>",
+        "[+125]% Great Person generation [in all cities] <during the [Industrial era]>",
+        "[+150]% Great Person generation [in all cities] <during the [Modern era]>",
+        "[+175]% Great Person generation [in all cities] <during the [Atomic era]>",
+        "[+200]% Great Person generation [in all cities] <during the [Information era]>",
+        "[+225]% Great Person generation [in all cities] <during the [Future era]>",
+        "Free Great Person <upon discovering [Philosophy] technology>"
+        ],//文明特性
+		"cities": ["芽伊","服客","色暗","礁石","沉灭","简欧","光耀"]//城市名
+	    },
+	    {
+		"name": "索菲娅旅行社",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "我听到了惊天的鸟鸣声！",//宣战
+		"attacked":"摔得破碎了！粉碎了！",//被宣战
+		"defeated": "你走吧。",//似了
+        "introduction": "这真是个有趣的地方吧。",//初见
+        "neutralHello": "被闹钟惊醒的时候。",//中立问候
+        "hateHello": "去你妈的。",//战争时问候
+        "tradeRequest": "不知道你是否记得那场盛宴。",//向玩家申请交易时
+		"outerColor": [23,94,61],//文明副色
+		"innerColor": [236,209,122],//文明主色
+		"uniqueName": "值得铭记",
+		"uniqueText": "黄金时代期间所有陆地地块+1[Gold]，且所有单位维护费-100%",
+        "uniques": ["[+1 Gold] from every [Land] <during a Golden Age>",
+        "[-100]% maintenance costs <for [All] units> <during a Golden Age>"
+        ],//文明特性
+		"cities": ["坎兰尔街","南北城","划叶","费苏米","敦可","加芝","风听"]//城市名
+	    },
+	    {
+		"name": "认知计划",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "总有一天会脱离苦海的。",//宣战
+		"attacked":"借物讽人。",//被宣战
+		"defeated": "停止喧嚣。",//似了
+        "introduction": "这不一定是一件好事。",//初见
+        "neutralHello": "这些是计划。",//中立问候
+        "hateHello": "我不认识你。",//战争时问候
+        "tradeRequest": "这些都是计划。",//向玩家申请交易时
+		"outerColor": [4,72,140],//文明副色
+		"innerColor": [252,180,108],//文明主色
+		"uniqueName": "未加速",
+		"uniqueText": "陆地近战单位获得特殊的晋升项目：\n承受双倍伤害，获得额外等同于自身基础[Strength]的[Strength]加成",
+        "uniques": ["[{Melee} {Land}] units gain the [自伤] promotion",
+        ],//文明特性
+		"cities": ["始发0017","艾玛塔尔1126","雅安0879","泰拉尼康6193","安达拉2564","苏金4348","克鲁木6189"]//城市名
+	    },
+	    {
+		"name": "往昔回忆",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "到此为止了，好吗？",//宣战
+		"attacked":"做到这里你已经很好了。",//被宣战
+		"defeated": "不要让我消失，好吗？",//似了
+        "introduction": "这里还有很多问题。",//初见
+        "neutralHello": "他们去了哪里？",//中立问候
+        "hateHello": "你要把辛辛苦苦收集的种子毁坏吗？",//战争时问候
+        "tradeRequest": "来吧。",//向玩家申请交易时
+		"outerColor": [227,182,135],//文明副色
+		"innerColor": [58,80,102],//文明主色
+		"uniqueName": "旧日不在了",
+		"uniqueText": "非空军受伤单位免受伤害惩罚\n所有单位获得特殊的晋升项目：\n回合结束时若HP不大于15则立即回复所有HP\n回合开始时若HP不大于20则立即回复所有HP",
+        "uniques": ["No damage penalty for wounded units <for [non-[Air]] units>",
+        "[All] units gain the [印刻] promotion",
+        ],//文明特性
+		"cities": ["会馆","云场","青街","菲岛","午日","铁锈","初本"]//城市名
+	    },
+	    {
+		"name": "午夜阈值",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "宣告着成功。",//宣战
+		"attacked":"宣告着失败。",//被宣战
+		"defeated": "五个回合还是太短了。",//似了
+        "introduction": "现在开始博弈吧。",//初见
+        "neutralHello": "如你所说，我们要良好的竞争。",//中立问候
+        "hateHello": "时间刚过去。",//战争时问候
+        "tradeRequest": "只有蛮夷才会抢掠烧杀，而我们是商人。",//向玩家申请交易时
+		"outerColor": [10,64,102],//文明副色
+		"innerColor": [231,111,68],//文明主色
+		"uniqueName": "放弃沉思",
+		"uniqueText": "拥有5单位[暴风雨]，可以通过消耗1单位[暴风雨]于任意城市建造[阴云密布]开启时间静止，开启立即生效，直到下个己方回合开始时停止该效果，并拥有5回合的冷却以禁止建造[阴云密布]，时间静止期间世界所有非己方单位无法移动且无法攻击，己方单位在时间静止期间仅能攻击城市(时间静止期间所有文明产能、科研进度、金钱产出、建造等不受影响，城市仍然可进行轰击)",
+        "uniques": ["Provides [1] [遮蔽]",
+        "Instantly provides [5] [暴风雨]",
+        "Remove [阴云密布] [in all cities] <upon turn start> <hidden from users>",
+        "Provides [-1] [通用计数器] <when above [0] [通用计数器]>",],//文明特性
+		"cities": ["瑟洛薇拉","希芙蕾恩","伊弥莉斯","奥忒弥昂","维露赛琳","芙蕾吉斯","缇兰涅尔"]//城市名
+	    },
+	    {
+		"name": "候鸟",
+		"leaderName": "未知领导者",
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",//介绍第1段
+		"startIntroPart2": "",//介绍第2段
+		"declaringWar": "奔波。",//宣战
+		"attacked":"来又回。",//被宣战
+		"defeated": "我已经很累了。",//似了
+        "introduction": "翔空的鸟儿，并不知道人们将它定义为了什么；纯洁的幼女，只会为它们的可爱而踮起脚尖。",//初见
+        "neutralHello": "夸大其词的描述。",//中立问候
+        "hateHello": "一场空前巨大的异常。",//战争时问候
+        "tradeRequest": "来来回回又是一年。",//向玩家申请交易时
+		"outerColor": [0,48,82],//文明副色
+		"innerColor": [227,171,132],//文明主色
+		"uniqueName": "家",
+		"uniqueText": "所有城市-15%人口增长\n一旦建立城市在这个城市中+1人口，建立城市后的5回合中该城市将在每回合获得候鸟迁徙相关建筑，5回合之后在这个城市中-1人口，同时首都+1人口，每完成一次候鸟迁徙使首都+1[Happiness](原有正在进行候鸟迁徙的城市跟随新建立的城市执行候鸟迁徙，这将导致在某些情况下建立新城市时一些正在进行候鸟迁徙的城市中的候鸟迁徙延缓1回合)",
+        "uniques": ["[+1] population [in this city] <upon founding a city>",
+        "[-15]% growth [in all cities]",
+        "Gain a free [候鸟迁徙-初期] [in this city] <upon founding a city>",
+        "Gain a free [候鸟迁徙-前期] [in all cities] <every [1] turns> <in cities with a [候鸟迁徙-初期]> <when between [1] and [1] [通用计数器]>",
+        "Gain a free [候鸟迁徙-中期] [in all cities] <every [1] turns> <in cities with a [候鸟迁徙-前期]> <when between [0] and [0] [通用计数器]>",
+        "Gain a free [候鸟迁徙-后期] [in all cities] <every [1] turns> <in cities with a [候鸟迁徙-中期]> <when between [1] and [1] [通用计数器]>",
+        "Gain a free [候鸟迁徙-末期] [in all cities] <every [1] turns> <in cities with a [候鸟迁徙-后期]> <when between [0] and [0] [通用计数器]>",
+        "Gain a free [归处] [in all cities] <every [1] turns> <in cities with a [候鸟迁徙-末期]> <when between [1] and [1] [通用计数器]>",
+        "Gain a free [候鸟迁徙-完成] [in all cities] <every [1] turns> <in cities with a [归处]> <when between [0] and [0] [通用计数器]>",
+        "Provides [1] [通用计数器] <when between [0] and [0] [通用计数器]>"
+        "Provides [-1] [通用计数器] <when between [1] and [1] [通用计数器]>",
+        "Instantly consumes [1] [通用计数器] <when between [1] and [1] [通用计数器]> <upon founding a city>",
+		"[+1 Happiness] [in capital] <for every [1] [候鸟入居]>",],//文明特性
+		"cities": ["朝夕灰烬","极夜都","月银","纪元","圣歌","华穷","幕落"]//城市名
+	    },
+	    ]
