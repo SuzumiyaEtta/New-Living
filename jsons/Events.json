@@ -1,0 +1,42 @@
+[
+    {
+        "name":"自天空中坠落",
+        "text":"妈妈，你看，云彩掉了下来。",
+        "choices":[
+        {
+        "text":"天堂",
+        "uniques":[
+        "Gain [32]-[64] [Gold]",
+        "[1] free [特务] units appear",
+        "Empire enters a [1]-turn Golden Age",
+        "Free [神之主] appears <with [1]% chance>"],
+        },
+        {
+        "text":"地狱",
+       "uniques":[
+       "Gain [-64]-[-32] [Gold]",
+       "[1] free [特务] units appear",
+       "Free [神之主] appears <with [2]% chance>"],
+        },
+        {
+        "text":"炼狱",
+       "uniques":["Gain [-64]-[-32] [Gold]",
+       "[-1] population [in capital]",
+       "[2] free [特务] units appear"],
+        }
+        ]
+    },
+    {
+        "name":"神降",
+        "text":"身体上的缺口已经缓慢的侵蚀了心灵，你感觉现在看到了神明携着光阴而来。",
+        "choices":[
+        {
+        "text":"选择亦或是必须选择",
+        "uniques":[
+            "Free Technology",
+            "Free Social Policy",
+            "Free Great Person"],
+        }
+        ]
+    }
+]

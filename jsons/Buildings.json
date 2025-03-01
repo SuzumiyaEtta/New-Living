@@ -1,0 +1,2111 @@
+[
+    //gk内容
+    {
+		"name": "Palace",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": ["Indicates the capital city"]
+	},
+	{
+		"name": "Monument",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	// Column 1
+	{
+		"name": "Granary",
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"],
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Shrine",
+		"faith": 1,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Temple of Artemis",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+        "uniques": ["[+10]% [Food] [in all cities]", "[+15]% Production when constructing [Archery] units [in this city]",
+            "[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"],
+		"requiredTech": "Archery",
+		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
+	},
+	// Column 2
+	{
+		"name": "Stone Works",
+		"happiness": 1,
+		"production": 1,
+		"requiredNearbyImprovedResources": ["Marble", "Stone"],
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["Must not be on [Plains]",
+			"[+1 Production] from [Stone] tiles [in this city]",
+			"[+1 Production] from [Marble] tiles [in this city]"],
+		"requiredTech": "Calendar"
+	},
+	{
+		"name": "Stonehenge",
+		"faith": 5,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"requiredTech": "Calendar",
+		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
+	},
+	{
+		"name": "Library",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "The Great Library",
+		"science": 3,
+		"culture": 1,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isWonder": true,
+		"requiredTech": "Writing",
+		"uniques": ["Free Technology", "Gain a free [Library] [in this city]"],
+		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
+	},
+	{
+		"name": "Circus",
+		"requiredNearbyImprovedResources": ["Ivory","Horses"],
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Trapping"
+	},
+	{
+		"name": "Water Mill",
+		"maintenance": 2,
+		"food": 2,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [River]"],
+		"requiredTech": "The Wheel"
+	},
+	{
+		"name": "Walls",
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "The Pyramids",
+		"culture": 1,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["[-25]% construction time for [All] improvements","[2] free [Worker] units appear"],
+		"requiredTech": "Masonry",
+		"quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
+	},
+	{
+		"name": "Mausoleum of Halicarnassus",
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
+			"[+2 Gold] from [Marble] tiles [in this city]", "[+2 Gold] from [Stone] tiles [in this city]"],
+		"requiredTech": "Masonry",
+		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
+	},
+	{
+		"name": "Barracks",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Bronze Working"
+	},
+	{
+		"name": "Statue of Zeus",
+		"culture": 1,
+		"isWonder": true,
+		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
+		"requiredTech": "Bronze Working",
+		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
+		// "Requires [Honor]" in BNW
+	},
+
+	// Classical Era
+
+	// Column 3
+	{
+		"name": "Lighthouse",
+		"cost": 75,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
+			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]" ],
+		"requiredTech": "Optics"
+	},
+	{
+		"name": "The Great Lighthouse",
+		"cost": 185,
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>",
+			"[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in this city]"],
+		"requiredTech": "Optics",
+		"quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
+	},
+	{
+		"name": "Stable",
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]",
+			"[+1 Production] from [Cattle] tiles [in this city]",
+			"[+1 Production] from [Horses] tiles [in this city]",
+			"[+1 Production] from [Sheep] tiles [in this city]"],
+		"requiredTech": "Horseback Riding"
+	},
+	{
+		"name": "Circus Maximus",
+		"cost": 125,
+		"happiness": 5,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"requiredTech": "Horseback Riding"
+	},
+	{
+		"name": "Courthouse",
+		"maintenance": 4,
+		"hurryCostModifier": 50,
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>"],
+		"requiredTech": "Mathematics"
+	},
+	{
+		"name": "Hanging Gardens",
+		"greatPersonPoints": {"Great Artist": 1},
+		"food": 6,
+		"culture": 1,
+		"isWonder": true,
+		"requiredTech": "Mathematics",
+		"uniques": ["Gain a free [Garden] [in this city]"],
+		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.' - F. Frankfort Moore"
+	},
+	{
+		"name": "Colosseum",
+		"maintenance": 1,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Terracotta Army",
+		"culture": 6,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 1},
+		"requiredTech": "Construction",
+		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
+	},
+	// Column 4
+	{
+		"name": "Temple",
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured"]
+	},
+	{
+		"name": "National College",
+		"cost": 125,
+		"science": 3,
+		"culture": 1,
+		"isNationalWonder": true,
+		"percentStatBonus": {"science": 50},
+		"uniques": ["Only available <if [Library] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "The Oracle",
+		"culture": 3,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isWonder": true,
+		"uniques": ["Free Social Policy"],
+		"requiredTech": "Philosophy",
+		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
+	},
+	{
+		"name": "Amphitheater",
+		"culture": 3,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "National Epic",
+		"cost": 125,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city"],
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Market",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Mint",
+		"maintenance": 0,
+		"requiredNearbyImprovedResources": ["Gold Ore", "Silver"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]"],
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Petra",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": ["Must be next to [Desert]", "[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]", "Gain a free [Amphitheater] [in this city]", "[+6 Culture] [in this city] <after discovering [Archaeology]>"],
+		"requiredTech": "Currency",
+		"quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...' - Indiana Jones"
+	},
+	{
+		"name": "Aqueduct",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
+		"requiredTech": "Engineering"
+	},
+	{
+		"name": "Great Wall",
+		"culture": 3,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory <before discovering [Dynamite]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
+			"Gain a free [Walls] [in this city]"],
+		"requiredTech": "Engineering",
+		"quote": "'The art of war teaches us to rely not on the likelihood of the enemy's not attacking, but rather on the fact that we have made our position unassailable.' - Sun Tzu"
+	},
+	{
+		"name": "Heroic Epic",
+		"cost": 125,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>", "All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
+			"Cost increases by [30] per owned city"],
+		"requiredTech": "Iron Working"
+	},
+	{
+		"name": "Colossus",
+		"cost": 185,
+		"culture": 1,
+		"gold": 5,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]"],
+		"requiredTech": "Iron Working",
+		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
+	},
+
+	// Medieval Era
+
+	// Column 5
+	{
+		"name": "Garden",
+		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Theology"
+	},
+	{
+		"name": "Hagia Sophia",
+		"faith": 3,
+		"isWonder": true,
+		"uniques": ["Gain a free [Temple] [in this city]", "Free [Great Prophet] appears", "Only available <when religion is enabled>"],
+		"requiredTech": "Theology",
+		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
+	},
+	{
+		"name": "Great Mosque of Djenne",
+		"culture": 1,
+		"faith": 3,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["Gain a free [Mosque] [in this city]", "Only available <when religion is enabled>",
+            "All newly-trained [Missionary] units [in this city] receive the [Devout] promotion",
+            "All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion"],
+		"requiredTech": "Theology",
+		"quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
+	},
+	{
+		"name": "Grand Temple",
+		"cost": 125,
+		"culture": 1,
+		"faith": 8,
+		"uniques": ["Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
+			"[+100]% Natural religion spread [in this city]", "Only available <when religion is enabled>", "Can only be built <in [Holy] cities>"],
+		"requiredTech": "Theology",
+		"isNationalWonder": true
+	},
+	{
+		"name": "Chichen Itza",
+		"culture": 1,
+		"happiness": 4,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["[+50]% Golden Age length"],
+		"requiredTech": "Civil Service",
+		"quote": "'The katun is established at Chichen Itza. The settlement of the Itza shall take place there. The quetzal shall come, the green bird shall come. Ah Kantenal shall come. It is the word of God. The Itza shall come.' - The Books of Chilam Balam"
+	},
+	{
+		"name": "National Treasury",
+		"cost": 125,
+		"gold": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Market] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"requiredTech": "Guilds"
+	},
+	{
+		"name": "Machu Picchu",
+		"gold": 5,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"culture": 1,
+		"isWonder": true,
+		"uniques": ["[+25]% [Gold] from Trade Routes", "Must have an owned [Mountain] within [2] tiles"],
+		"requiredTech": "Guilds",
+		"quote": "'Few romances can ever surpass that of the granite citadel on top of the beetling precipices of Machu Picchu, the crown of Inca Land.' - Hiram Bingham"
+	},
+	{
+		"name": "Workshop",
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "Forge",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Iron"],
+		"requiredTech": "Metal Casting",
+		"uniques": ["[+15]% Production when constructing [Spaceship part] units [in this city]",
+			"[+15]% Production when constructing [Land] units [in this city]",
+			"[+1 Production] from [Iron] tiles [in this city]"]
+	},
+	// Column 6
+	{
+		"name": "Harbor",
+		"cost": 120,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
+			"Connects trade routes over water","Must be next to [Coast]"],
+		"requiredTech": "Compass"
+	},
+	{
+		"name": "University",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Oxford University",
+		"cost": 125,
+		"science": 3,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [University] is constructed in all [non-[Puppeted]] cities>", "Free Technology", "Cost increases by [30] per owned city"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Angkor Wat",
+		"culture": 1,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["[-25]% Culture cost of natural border growth [in all cities]","[-25]% Gold cost of acquiring tiles [in all cities]"],
+		"requiredTech": "Education",
+		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
+	},
+	{
+		"name": "Castle",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Chivalry",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Alhambra",
+		"culture": 1,
+		"greatPersonPoints": {"Great Artist": 1},
+		"isWonder": true,
+		"percentStatBonus": {"culture": 20},
+		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Drill I] promotion",
+			"Gain a free [Castle] [in this city]"],
+		"requiredTech": "Chivalry",
+		"quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.' - Joseph Addison"
+	},
+	{
+		"name": "Ironworks",
+		"cost": 125,
+		"production": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"requiredTech": "Machinery"
+	},
+	{
+		"name": "Notre Dame",
+		"faith": 4,
+		"happiness": 10,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"requiredTech": "Physics",
+		"quote": "'Architecture has recorded the great ideas of the human race. Not only every religious symbol, but every human thought has its page in that vast book.' - Victor Hugo"
+	},
+	{
+		"name": "Armory",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredBuilding": "Barracks",
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Steel"
+	},
+
+	// Renaissance Era
+
+	// Column 7
+	{
+		"name": "Observatory",
+		"maintenance": 0,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 50},
+		"requiredBuilding": "Library",
+		"uniques": ["Must be next to [Mountain]"],
+		"requiredTech": "Astronomy"
+	},
+	{
+		"name": "Opera House",
+		"culture": 4,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 2,
+		"requiredTech": "Acoustics",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Sistine Chapel",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 2},
+		"uniques": ["[+25]% [Culture] [in all cities]"],
+		"requiredTech": "Acoustics",
+		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
+	},
+	{
+		"name": "Bank",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"requiredBuilding": "Market",
+		"requiredTech": "Banking"
+	},
+    {
+        "name": "Constabulary",
+        "cost": 160,
+        "maintenance": 1,
+        "hurryCostModifier": 10,
+        "uniques": ["Only available <when espionage is enabled>", "[-25]% enemy spy effectiveness [in this city]"],
+        "requiredTech": "Banking"
+    },
+	// will be introduced in BNW expansion pack
+//	{
+//		"name": "Hanse",
+//		"replaces": "Bank",
+//		"uniqueTo": "Germany",
+//		"gold": 2,
+//		"specialistSlots": {"Merchant": 1},
+//		"hurryCostModifier": 15,
+//		"percentStatBonus": {"gold": 25},
+//		"uniques": ["+5% Production for every Trade Route with a City-State in the empire"],
+//		"requiredBuilding": "Market",
+//		"requiredTech": "Banking"
+//	},
+	{
+		"name": "Forbidden Palace",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 1},
+		"uniques": ["[-10]% Unhappiness from [Population] [in all cities]"],
+		"requiredTech": "Banking",
+		"quote": "'Most of us can, as we choose, make of this world either a palace or a prison' - John Lubbock"
+	},
+	{
+		"name": "Theatre",
+		"happiness": 3,
+		"hurryCostModifier": 10,
+		"maintenance": 2,
+		"requiredBuilding": "Colosseum",
+		"requiredTech": "Printing Press"
+	},
+	{
+		"name": "Leaning Tower of Pisa",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 1},
+		"uniques": ["[+25]% Great Person generation [in all cities]", "Free Great Person"],
+		"requiredTech": "Printing Press",
+		"quote": "'Don't clap too hard - it's a very old building.' - John Osbourne"
+	},
+	{
+		"name": "Himeji Castle",
+		"culture": 3,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+			"Gain a free [Castle] [in this city]"],
+		"requiredTech": "Gunpowder",
+		"quote": "'Bushido is realized in the presence of death. This means choosing death whenever there is a choice between life and death. There is no other reasoning.' - Yamamoto Tsunetomo"
+	},
+	// Column 8
+	{
+		"name": "Seaport",
+		"hurryCostModifier": 25,
+		"maintenance": 3,
+		"requiredBuilding": "Harbor",
+		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
+			"Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]"],
+		"requiredTech": "Navigation"
+	},
+	{
+		"name": "Hermitage",
+		"cost": 125,
+		"percentStatBonus": {"culture": 50},
+		"culture": 5,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"requiredTech": "Architecture"
+	},
+	{
+		"name": "Taj Mahal",
+		"culture": 1,
+		"happiness": 4,
+		"greatPersonPoints": {"Great Artist": 2},
+		"isWonder": true,
+		"uniques": ["Empire enters golden age"],
+		"requiredTech": "Architecture",
+		"quote": "'The Taj Mahal rises above the banks of the river like a solitary tear suspended on the cheek of time.' - Rabindranath Tagore"
+	},
+	{
+		"name": "Porcelain Tower",
+		"culture": 1,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"isWonder": true,
+		"uniques": ["Free [Great Scientist] appears","Science gained from research agreements [+50]%"],
+		"requiredTech": "Architecture",
+		"quote": "'Things always seem fairer when we look back at them, and it is out of that inaccessible tower of the past that Longing leans and beckons.' - James Russell Lowell"
+	},
+	{
+		"name": "Windmill",
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": ["Must not be on [Hill]", "[+10]% Production when constructing [All] buildings [in this city]"],
+		"requiredTech": "Economics"
+	},
+	{
+		"name": "Arsenal",
+		"cost": 300,
+		"cityStrength": 9,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Castle",
+		"requiredTech": "Metallurgy",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Kremlin",
+		"culture": 3,
+		"cityStrength": 12,
+		"isWonder": true,
+		"uniques": ["[+25]% City Strength from defensive buildings"],
+		"requiredTech": "Metallurgy",
+		"quote": "'The Kremlin is constantly changing the rules of the game to suit its purposes. We are not playing chess, we're playing roulette.' - Garry Kasparov"
+	},
+
+	// Industrial Era
+
+	// Column 9
+	{
+		"name": "Museum",
+		"culture": 5,
+		"specialistSlots": {"Artist": 2},
+		"requiredBuilding": "Opera House",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Archaeology",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "The Louvre",
+		"culture": 1,
+		"happiness": 4,
+		"isWonder": true,
+		"uniques": ["[2] free [Great Artist] units appear"],
+		"requiredTech": "Archaeology",
+		"quote": "'Every genuine work of art has as much reason for being as the earth and the sun' - Ralph Waldo Emerson"
+	},
+	{
+		"name": "Public School",
+		"science": 3,
+		"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "University",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Scientific Theory"
+	},
+	{
+		"name": "Factory",
+		"cost": 360,
+		"production": 4,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Workshop",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredResource": "Coal",
+		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "Big Ben",
+		"culture": 1,
+		"gold": 4,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"isWonder": true,
+		"uniques": ["[Gold] cost of purchasing items in cities [-15]%"],
+		"requiredTech": "Industrialization",
+		"quote": "'To achieve great things, two things are needed: a plan, and not quite enough time.' - Leonard Bernstein"
+	},
+	{
+		"name": "Military Academy",
+		"hurryCostModifier": 0,
+		"maintenance": 1,
+		"requiredBuilding": "Armory",
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Military Science"
+	},
+	{
+		"name": "Brandenburg Gate",
+		"culture": 3,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"isWonder": true,
+		"uniques": ["Free [Great General] appears", "New [Military] units start with [15] Experience [in this city]"],
+		"requiredTech": "Military Science",
+		"quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
+	},
+	// Column 10
+	{
+		"name": "Hospital",
+		"food": 5,
+		"requiredBuilding": "Aqueduct",
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"requiredTech": "Biology"
+	},
+	{
+		"name": "Stock Exchange",
+		"gold": 3,
+		"percentStatBonus": {"gold": 25},
+		"specialistSlots": {"Merchant": 2},
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Bank",
+		"requiredTech": "Electricity"
+	},
+	{
+		"name": "Hydro Plant",
+		"requiredResource": "Aluminum",
+		"hurryCostModifier": 0,
+		"maintenance": 3,
+		"uniques": ["Must be on [River]","[+1 Production] from [River] tiles [in this city]"],
+		"requiredTech": "Electricity"
+	},
+    {
+        "name": "Police Station",
+        "cost": 300,
+        "maintenance": 1,
+        "hurryCostModifier": 10,
+        "uniques": ["Only available <when espionage is enabled>", "[-25]% enemy spy effectiveness [in this city]"],
+        "requiredBuilding": "Constabulary",
+        "requiredTech": "Electricity"
+    },
+
+	// Modern Era
+
+	// Column 11
+	{
+		"name": "Stadium",
+		"happiness": 4,
+		"requiredBuilding": "Theatre",
+		"maintenance": 2,
+		"requiredTech": "Refrigeration"
+	},
+	{
+		"name": "Broadcast Tower",
+		"culture": 3,
+		"percentStatBonus": {"culture": 33},
+		"requiredBuilding": "Museum",
+		"maintenance": 3,
+		"requiredTech": "Radio",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Eiffel Tower",
+		"culture": 1,
+		"happiness": 5,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"isWonder": true,
+		"uniques": ["[+1 Happiness] per [2] social policies adopted"],
+		"requiredTech": "Radio",
+		"quote": "'We live only to discover beauty, all else is a form of waiting' - Kahlil Gibran"
+	},
+    {
+        "name": "National Intelligence Agency",
+        "cost": 120,
+        "culture": 1,
+        "isNationalWonder": true,
+        "uniques": ["Only available <when espionage is enabled>",
+            "New spies start with [1] level(s)",
+            "Promotes all spies [1] time(s)",
+            "Gain an extra spy", // Order is significant here
+			"[-15]% enemy spy effectiveness [in this city]",
+			"Only available <if [Police Station] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city"],
+        "requiredTech": "Radio"
+    },
+	{
+		"name": "Military Base",
+		"cityStrength": 12,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Arsenal",
+		"requiredTech": "Replaceable Parts",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Statue of Liberty",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"uniques": ["[+1 Production] from every specialist [in all cities]"],
+		"requiredTech": "Replaceable Parts",
+		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
+	},
+	{
+		"name": "Neuschwanstein",
+		"happiness": 2,
+		"culture": 4,
+		"gold": 6,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["[+1 Happiness, +2 Culture, +3 Gold] from every [Castle]",
+			"Must have an owned [Mountain] within [2] tiles"],
+		"requiredTech": "Railroads",
+		"quote": "'...the location is one of the most beautiful to be found, holy and unapproachable, a worthy temple for the divine friend who has brought salvation and true blessing to the world.' - King Ludwig II of Bavaria"
+	},
+	// Column 12
+	{
+		"name": "Research Lab",
+		"science": 4,
+		"percentStatBonus": {"science": 50},
+		"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "Public School",
+		"maintenance": 3,
+		"requiredTech": "Plastics"
+	},
+	{
+		"name": "Cristo Redentor",
+		"culture": 5,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 2},
+		"uniques": ["[-10]% Culture cost of adopting new Policies"],
+		"requiredTech": "Plastics",
+		"quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.' - New Testament, Matthew 11:28"
+	},
+
+	// Atomic Era
+
+	// Column 13
+	{
+		"name": "Medical Lab",
+		"requiredBuilding": "Hospital",
+		"maintenance": 3,
+		"requiredTech": "Pharmaceuticals",
+		"uniques": ["[25]% Food is carried over after population increases [in this city]"]
+	},
+	{
+		"name": "Manhattan Project",
+		"cost": 750,
+		"isNationalWonder": true,
+		"uniques": ["Enables nuclear weapon", "Triggers a global alert upon completion", "Cannot be hurried"],
+		"requiredTech": "Atomic Theory"
+	},
+	{
+		"name": "Pentagon",
+		"isWonder": true,
+		"culture": 3,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>"],
+		"requiredTech": "Combined Arms",
+		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
+	},
+	// Column 14
+	{
+		"name": "Solar Plant",
+		"production": 5,
+		"percentStatBonus": {"production": 15},
+		"requiredBuilding": "Factory",
+		"maintenance": 3,
+		"requiredTech": "Ecology",
+		"uniques": ["Must be next to [Desert]", "Only available <in cities without a [Nuclear Plant]>"]
+	},
+	{
+		"name": "Recycling Center",
+		"maintenance": 3,
+		"requiredTech": "Ecology",
+		"uniques": ["Provides [2] [Aluminum]","Limited to [5] per Civilization"]
+	},
+	{
+		"name": "Sydney Opera House",
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 2},
+		"percentStatBonus": {"culture": 50},
+		"uniques": ["Free Social Policy","Must be next to [Coast]"],
+		"requiredTech": "Ecology",
+		"quote": "'Those who lose dreaming are lost.' - Australian Aboriginal saying"
+	},
+	{
+		"name": "Nuclear Plant",
+		"production": 5,
+		"percentStatBonus": {"production": 15},
+		"requiredBuilding": "Factory",
+		"maintenance": 3,
+		"requiredResource": "Uranium",
+		"requiredTech": "Nuclear Fission",
+		"uniques": ["Only available <in cities without a [Solar Plant]>"]
+	},
+	{
+		"name": "Apollo Program",
+		"cost": 750,
+		"isNationalWonder": true,
+		"uniques": ["Enables construction of Spaceship parts", "Triggers a global alert upon completion", 
+			"Only available <when [Scientific] Victory is enabled>", "Cannot be hurried"],
+		"requiredTech": "Rocketry"
+	},
+    {
+        "name": "Great Firewall",
+        "isWonder": true,
+        "uniques": ["Only available <when espionage is enabled>", "[-99]% enemy spy effectiveness [in this city]",
+            "[-25]% enemy spy effectiveness [in all cities]"],
+        "requiredTech": "Computers",
+        "quote": "'Distrust and caution are the parents of security.' - Benjamin Franklin"
+    },
+
+	// Information Era
+
+	// Column 15
+	{
+		"name": "CN Tower",
+		"isWonder": true,
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"uniques": ["[+1] population [in all cities]", "[+1 Happiness] [in all cities]", "Gain a free [Broadcast Tower] [in all cities]"],
+		"requiredTech": "Telecommunications",
+		"quote": "'Nothing travels faster than light with the possible exception of bad news, which obeys its own special rules.' - Douglas Adams"
+	},
+	{
+		"name": "Bomb Shelter",
+		"cost": 300,
+		"maintenance": 1,
+		"requiredTech": "Telecommunications",
+		"uniques": ["Population loss from nuclear attacks [-75]% [in this city]","Damage to garrison from nuclear attacks [-75]% [in this city]"]
+	},
+	{
+		"name": "Hubble Space Telescope",
+		"isWonder": true,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"uniques": ["[2] free [Great Scientist] units appear",
+			"[+25]% Production when constructing [Spaceship part] units [in this city]",
+			"Gain a free [Spaceship Factory] [in this city]"],
+		"requiredTech": "Satellites",
+		"quote": "'The wonder is, not that the field of stars is so vast, but that man has measured it.' - Anatole France"
+	},
+	{
+		"name": "Spaceship Factory",
+		"production": 3,
+		"requiredResource": "Aluminum",
+		"cost": 360,
+		"requiredBuilding": "Factory",
+		"uniques": ["[+50]% Production when constructing [Spaceship part] units [in this city]"],
+		"requiredTech": "Robotics"
+	},
+	// Column 16
+	{
+		"name": "United Nations",
+		"isWonder": true,
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"requiredTech": "Globalization",
+		"uniques": ["Triggers voting for the Diplomatic Victory", "Only available <when [Diplomatic] Victory is enabled>", "Triggers a global alert upon completion"],
+		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
+	},
+
+	// All Eras
+
+	{
+		"name": "Utopia Project",
+		"cost": 1500,
+		"isNationalWonder": true,
+		"uniques": ["Hidden until [5] social policy branches have been completed", "Triggers a global alert upon build start",
+			"Triggers a Cultural Victory upon completion", "Only available <when [Cultural] Victory is enabled>", "Cannot be hurried"]
+	},
+
+	// Religious buildings
+
+	{
+		"name": "Cathedral",
+		"cost": 0,
+		"faith": 1,
+		"culture": 3,
+		"happiness": 1,
+		"specialistSlots": {"Artist": 1},
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Monastery",
+		"cost": 0,
+		"culture": 2,
+		"faith": 2,
+		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
+			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]",
+			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
+	},
+	{
+		"name": "Mosque",
+		"cost": 0,
+		"culture": 2,
+		"faith": 3,
+		"happiness": 1,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Pagoda",
+		"cost": 0,
+		"culture": 2,
+		"faith": 2,
+		"happiness": 2,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+    //模组内容
+	{
+		"name": "战略偏好-选择-关闭",
+		"cost": 0,
+		"uniques": [
+		"Unbuildable <when below [1] [战略重心]> <hidden from users>",
+		"Can only be built [in capital] <hidden from users>",
+		"Remove [战略偏好-选择-开启] [in this city] <hidden from users>",
+		"Unsellable",
+		"Instantly provides [1] [战略偏好-开关] <hidden from users>",]
+		},//隐藏建筑
+		{
+		"name": "战略偏好-选择-开启",
+		"cost": 0,
+		"uniques": [
+		"Unbuildable <when below [1] [战略重心]> <hidden from users>",
+		"Can only be built [in capital] <hidden from users>",
+		"Remove [战略偏好-选择-关闭] [in this city] <hidden from users>",
+		"Unsellable",
+		"Instantly consumes [1] [战略偏好-开关] <hidden from users>",]
+		},//隐藏建筑
+		{
+		"name": "战略偏好：近程",
+		"cost": 0,
+		"uniques": [
+		"Unbuildable <when above [0] [战略偏好-开关]> <hidden from users>",
+		"Unbuildable <when below [1] [战略重心]> <hidden from users>",
+		"Can only be built [in capital] <hidden from users>",
+		"Remove [战略偏好：远程] [in this city] <hidden from users>",
+		"Remove [战略偏好：守城] [in this city] <hidden from users>",
+		"Provides [1] [战略偏好-近程] <hidden from users>",
+		"你的对应单位在下一回合具有：陆地近战单位对战陆地近战单位+15%[Strength]",
+		"Unsellable"]
+		},//隐藏建筑
+		{
+		"name": "战略偏好：远程",
+		"cost": 0,
+		"uniques": [
+		"Unbuildable <when above [0] [战略偏好-开关]> <hidden from users>",
+		"Unbuildable <when below [1] [战略重心]> <hidden from users>",
+		"Can only be built [in capital] <hidden from users>",
+		"Remove [战略偏好：近程] [in this city] <hidden from users>",
+		"Remove [战略偏好：守城] [in this city] <hidden from users>",
+		"Provides [1] [战略偏好-远程] <hidden from users>",
+		"你的对应单位在下一回合具有：陆地远程单位对战陆地远程单位+15%[Strength]",
+		"Unsellable"]
+		},//隐藏建筑
+		{
+		"name": "战略偏好：守城",
+		"cost": 0,
+		"uniques": [
+		"Unbuildable <when above [0] [战略偏好-开关]> <hidden from users>",
+		"Unbuildable <when below [1] [战略重心]> <hidden from users>",
+		"Can only be built [in capital] <hidden from users>",
+		"Remove [战略偏好：近程] [in this city] <hidden from users>",
+		"Remove [战略偏好：远程] [in this city] <hidden from users>",
+		"Provides [1] [战略偏好-守城] <hidden from users>",
+		"你的对应单位在下一回合具有：陆地军事单位对战攻城单位当攻击时+50%[Strength]",
+		"Unsellable"]
+		},//隐藏建筑
+		{
+		"name": "H-A-B",
+		"cost": 750,
+		"replaces": "Manhattan Project",
+		"uniqueTo": "东方城市群",
+		"isNationalWonder": true,
+		"uniques": ["Enables nuclear weapon"],
+		"requiredTech": "Atomic Theory"
+	},
+	{
+		"name": "延迟毒物",
+		"cost": 40,
+		"uniqueTo": "鼠疫",
+		"food": 2,
+		"happiness": 2,
+		"uniques": [
+		"Gain [-25] [Gold] <every [5] turns> <upon turn end>",
+		"Unsellable"]
+		},
+		{
+		"name": "不再为无辜者哭丧",
+		"isNationalWonder": true,
+		"uniqueTo": "鼠疫",
+		"cost": 185,
+		"uniques": ["允许建造[绽放之日]",
+		"Instantly provides [1] [鼠疫-绽放之日] <hidden from users>",
+		"Never destroyed when the city is captured"]
+	},
+	{
+		"name": "绽放之日",
+		"isWonder": true,
+		"cost": 185,
+		"uniques": ["Unbuildable <when below [1] [鼠疫-绽放之日]> <hidden from users>",
+		"Instantly consumes [1] [鼠疫-绽放之日] <hidden from users>",
+		"Instantly provides [1] [绽放] <hidden from users>",
+		"拥有[寒疾]的所有单位于一回合内当攻击时自毁，且在本回合被消灭时获得[35-155][Science]"]
+	},
+		{
+		"name": "草木天堂",
+		"replaces": "Museum",
+		"uniqueTo": "焚毁的花园",
+		"cost": 375,
+		"culture": 3,
+		"gold": 2,
+		"production": 3,
+		"specialistSlots": {"Artist": 2},
+		"requiredBuilding": "Opera House",
+		"maintenance": 0,
+		"hurryCostModifier": 0,
+		"requiredTech": "Archaeology",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "回廊",
+		"replaces": "Palace",
+		"uniqueTo": "重生",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": ["Indicates the capital city",
+		"具有观赏性"],
+	},
+	{
+		"name": "废弃的巨型工厂",
+		"production": 1,
+		"cost": 0,
+		"uniques": ["Unsellable",
+		"Unbuildable",
+		"Provides [1] [生锈的产能]",
+		"Destroyed when the city is captured"],
+	},
+	{
+		"name": "废弃的转化炉",
+		"cost": 0,
+		"uniques": [
+		"在所在城市转化[生锈的产能]为[Production]，单回合内至多转化100[生锈的产能]，想要停止时售卖即可"
+		"Unbuildable <when below [1] [赫菲斯托斯石像]> <hidden from users>",
+		"Consumes [1] [赫菲斯托斯石像] <hidden from users>"
+		"Provides [-1] [生锈的产能] <when between [1] and [1] [生锈的产能]> <hidden from users>",
+		"Provides [-2] [生锈的产能] <when between [2] and [2] [生锈的产能]> <hidden from users>",
+		"Provides [-3] [生锈的产能] <when between [3] and [3] [生锈的产能]> <hidden from users>",
+		"Provides [-4] [生锈的产能] <when between [4] and [4] [生锈的产能]> <hidden from users>",
+		"Provides [-5] [生锈的产能] <when between [5] and [5] [生锈的产能]> <hidden from users>",
+		"Provides [-6] [生锈的产能] <when between [6] and [6] [生锈的产能]> <hidden from users>",
+		"Provides [-7] [生锈的产能] <when between [7] and [7] [生锈的产能]> <hidden from users>",
+		"Provides [-8] [生锈的产能] <when between [8] and [8] [生锈的产能]> <hidden from users>",
+		"Provides [-9] [生锈的产能] <when between [9] and [9] [生锈的产能]> <hidden from users>",
+		"Provides [-10] [生锈的产能] <when between [10] and [10] [生锈的产能]> <hidden from users>",
+		"Provides [-11] [生锈的产能] <when between [11] and [11] [生锈的产能]> <hidden from users>",
+		"Provides [-12] [生锈的产能] <when between [12] and [12] [生锈的产能]> <hidden from users>",
+		"Provides [-13] [生锈的产能] <when between [13] and [13] [生锈的产能]> <hidden from users>",
+		"Provides [-14] [生锈的产能] <when between [14] and [14] [生锈的产能]> <hidden from users>",
+		"Provides [-15] [生锈的产能] <when between [15] and [15] [生锈的产能]> <hidden from users>",
+		"Provides [-16] [生锈的产能] <when between [16] and [16] [生锈的产能]> <hidden from users>",
+		"Provides [-17] [生锈的产能] <when between [17] and [17] [生锈的产能]> <hidden from users>",
+		"Provides [-18] [生锈的产能] <when between [18] and [18] [生锈的产能]> <hidden from users>",
+		"Provides [-19] [生锈的产能] <when between [19] and [19] [生锈的产能]> <hidden from users>",
+		"Provides [-20] [生锈的产能] <when between [20] and [20] [生锈的产能]> <hidden from users>",
+		"Provides [-21] [生锈的产能] <when between [21] and [21] [生锈的产能]> <hidden from users>",
+		"Provides [-22] [生锈的产能] <when between [22] and [22] [生锈的产能]> <hidden from users>",
+		"Provides [-23] [生锈的产能] <when between [23] and [23] [生锈的产能]> <hidden from users>",
+		"Provides [-24] [生锈的产能] <when between [24] and [24] [生锈的产能]> <hidden from users>",
+		"Provides [-25] [生锈的产能] <when between [25] and [25] [生锈的产能]> <hidden from users>",
+		"Provides [-26] [生锈的产能] <when between [26] and [26] [生锈的产能]> <hidden from users>",
+		"Provides [-27] [生锈的产能] <when between [27] and [27] [生锈的产能]> <hidden from users>",
+		"Provides [-28] [生锈的产能] <when between [20] and [28] [生锈的产能]> <hidden from users>",
+		"Provides [-29] [生锈的产能] <when between [29] and [29] [生锈的产能]> <hidden from users>",
+		"Provides [-30] [生锈的产能] <when between [30] and [30] [生锈的产能]> <hidden from users>",
+		"Provides [-31] [生锈的产能] <when between [31] and [31] [生锈的产能]> <hidden from users>",
+		"Provides [-32] [生锈的产能] <when between [32] and [32] [生锈的产能]> <hidden from users>",
+		"Provides [-33] [生锈的产能] <when between [33] and [33] [生锈的产能]> <hidden from users>",
+		"Provides [-34] [生锈的产能] <when between [34] and [34] [生锈的产能]> <hidden from users>",
+		"Provides [-35] [生锈的产能] <when between [35] and [35] [生锈的产能]> <hidden from users>",
+		"Provides [-36] [生锈的产能] <when between [36] and [36] [生锈的产能]> <hidden from users>",
+		"Provides [-37] [生锈的产能] <when between [37] and [37] [生锈的产能]> <hidden from users>",
+		"Provides [-38] [生锈的产能] <when between [38] and [38] [生锈的产能]> <hidden from users>",
+		"Provides [-39] [生锈的产能] <when between [39] and [39] [生锈的产能]> <hidden from users>",
+		"Provides [-40] [生锈的产能] <when between [40] and [40] [生锈的产能]> <hidden from users>",
+		"Provides [-41] [生锈的产能] <when between [41] and [41] [生锈的产能]> <hidden from users>",
+		"Provides [-42] [生锈的产能] <when between [42] and [42] [生锈的产能]> <hidden from users>",
+		"Provides [-43] [生锈的产能] <when between [43] and [43] [生锈的产能]> <hidden from users>",
+		"Provides [-44] [生锈的产能] <when between [44] and [44] [生锈的产能]> <hidden from users>",
+		"Provides [-45] [生锈的产能] <when between [45] and [45] [生锈的产能]> <hidden from users>",
+		"Provides [-46] [生锈的产能] <when between [46] and [46] [生锈的产能]> <hidden from users>",
+		"Provides [-47] [生锈的产能] <when between [47] and [47] [生锈的产能]> <hidden from users>",
+		"Provides [-48] [生锈的产能] <when between [48] and [48] [生锈的产能]> <hidden from users>",
+		"Provides [-49] [生锈的产能] <when between [49] and [49] [生锈的产能]> <hidden from users>",
+		"Provides [-50] [生锈的产能] <when between [50] and [50] [生锈的产能]> <hidden from users>",
+		"Provides [-51] [生锈的产能] <when between [51] and [51] [生锈的产能]> <hidden from users>",
+		"Provides [-52] [生锈的产能] <when between [52] and [52] [生锈的产能]> <hidden from users>",
+		"Provides [-53] [生锈的产能] <when between [53] and [53] [生锈的产能]> <hidden from users>",
+		"Provides [-54] [生锈的产能] <when between [54] and [54] [生锈的产能]> <hidden from users>",
+		"Provides [-55] [生锈的产能] <when between [55] and [55] [生锈的产能]> <hidden from users>",
+		"Provides [-56] [生锈的产能] <when between [56] and [56] [生锈的产能]> <hidden from users>",
+		"Provides [-57] [生锈的产能] <when between [57] and [57] [生锈的产能]> <hidden from users>",
+		"Provides [-58] [生锈的产能] <when between [58] and [58] [生锈的产能]> <hidden from users>",
+		"Provides [-59] [生锈的产能] <when between [59] and [59] [生锈的产能]> <hidden from users>",
+		"Provides [-60] [生锈的产能] <when between [60] and [60] [生锈的产能]> <hidden from users>",
+		"Provides [-61] [生锈的产能] <when between [61] and [61] [生锈的产能]> <hidden from users>",
+		"Provides [-62] [生锈的产能] <when between [62] and [62] [生锈的产能]> <hidden from users>",
+		"Provides [-63] [生锈的产能] <when between [63] and [63] [生锈的产能]> <hidden from users>",
+		"Provides [-64] [生锈的产能] <when between [64] and [64] [生锈的产能]> <hidden from users>",
+		"Provides [-65] [生锈的产能] <when between [65] and [65] [生锈的产能]> <hidden from users>",
+		"Provides [-66] [生锈的产能] <when between [66] and [66] [生锈的产能]> <hidden from users>",
+		"Provides [-67] [生锈的产能] <when between [67] and [67] [生锈的产能]> <hidden from users>",
+		"Provides [-68] [生锈的产能] <when between [68] and [68] [生锈的产能]> <hidden from users>",
+		"Provides [-69] [生锈的产能] <when between [69] and [69] [生锈的产能]> <hidden from users>",
+		"Provides [-70] [生锈的产能] <when between [70] and [70] [生锈的产能]> <hidden from users>",
+		"Provides [-71] [生锈的产能] <when between [71] and [71] [生锈的产能]> <hidden from users>",
+		"Provides [-72] [生锈的产能] <when between [72] and [72] [生锈的产能]> <hidden from users>",
+		"Provides [-73] [生锈的产能] <when between [73] and [73] [生锈的产能]> <hidden from users>",
+		"Provides [-74] [生锈的产能] <when between [74] and [74] [生锈的产能]> <hidden from users>",
+		"Provides [-75] [生锈的产能] <when between [75] and [75] [生锈的产能]> <hidden from users>",
+		"Provides [-76] [生锈的产能] <when between [76] and [76] [生锈的产能]> <hidden from users>",
+		"Provides [-77] [生锈的产能] <when between [77] and [77] [生锈的产能]> <hidden from users>",
+		"Provides [-78] [生锈的产能] <when between [78] and [78] [生锈的产能]> <hidden from users>",
+		"Provides [-79] [生锈的产能] <when between [79] and [79] [生锈的产能]> <hidden from users>",
+		"Provides [-80] [生锈的产能] <when between [80] and [80] [生锈的产能]> <hidden from users>",
+		"Provides [-81] [生锈的产能] <when between [81] and [81] [生锈的产能]> <hidden from users>",
+		"Provides [-82] [生锈的产能] <when between [82] and [82] [生锈的产能]> <hidden from users>",
+		"Provides [-83] [生锈的产能] <when between [83] and [83] [生锈的产能]> <hidden from users>",
+		"Provides [-84] [生锈的产能] <when between [84] and [84] [生锈的产能]> <hidden from users>",
+		"Provides [-85] [生锈的产能] <when between [85] and [85] [生锈的产能]> <hidden from users>",
+		"Provides [-86] [生锈的产能] <when between [86] and [86] [生锈的产能]> <hidden from users>",
+		"Provides [-87] [生锈的产能] <when between [87] and [87] [生锈的产能]> <hidden from users>",
+		"Provides [-88] [生锈的产能] <when between [88] and [88] [生锈的产能]> <hidden from users>",
+		"Provides [-89] [生锈的产能] <when between [89] and [89] [生锈的产能]> <hidden from users>",
+		"Provides [-90] [生锈的产能] <when between [90] and [90] [生锈的产能]> <hidden from users>",
+		"Provides [-91] [生锈的产能] <when between [91] and [91] [生锈的产能]> <hidden from users>",
+		"Provides [-92] [生锈的产能] <when between [92] and [92] [生锈的产能]> <hidden from users>",
+		"Provides [-93] [生锈的产能] <when between [93] and [93] [生锈的产能]> <hidden from users>",
+		"Provides [-94] [生锈的产能] <when between [94] and [94] [生锈的产能]> <hidden from users>",
+		"Provides [-95] [生锈的产能] <when between [95] and [95] [生锈的产能]> <hidden from users>",
+		"Provides [-96] [生锈的产能] <when between [96] and [96] [生锈的产能]> <hidden from users>",
+		"Provides [-97] [生锈的产能] <when between [97] and [97] [生锈的产能]> <hidden from users>",
+		"Provides [-98] [生锈的产能] <when between [98] and [98] [生锈的产能]> <hidden from users>",
+		"Provides [-99] [生锈的产能] <when between [99] and [99] [生锈的产能]> <hidden from users>",
+		"Provides [-100] [生锈的产能] <when above [99] [生锈的产能]> <hidden from users>",
+		"[+1 Production] [in this city] <when between [2] and [3] [生锈的产能]> <hidden from users>",
+		"[+2 Production] [in this city] <when between [4] and [5] [生锈的产能]> <hidden from users>",
+		"[+3 Production] [in this city] <when between [6] and [7] [生锈的产能]> <hidden from users>",
+		"[+4 Production] [in this city] <when between [8] and [9] [生锈的产能]> <hidden from users>",
+		"[+5 Production] [in this city] <when between [10] and [11] [生锈的产能]> <hidden from users>",
+		"[+6 Production] [in this city] <when between [12] and [13] [生锈的产能]> <hidden from users>",
+		"[+7 Production] [in this city] <when between [14] and [15] [生锈的产能]> <hidden from users>",
+		"[+8 Production] [in this city] <when between [16] and [17] [生锈的产能]> <hidden from users>",
+		"[+9 Production] [in this city] <when between [18] and [19] [生锈的产能]> <hidden from users>",
+		"[+10 Production] [in this city] <when between [20] and [21] [生锈的产能]> <hidden from users>",
+		"[+11 Production] [in this city] <when between [22] and [23] [生锈的产能]> <hidden from users>",
+		"[+12 Production] [in this city] <when between [24] and [25] [生锈的产能]> <hidden from users>",
+		"[+13 Production] [in this city] <when between [26] and [27] [生锈的产能]> <hidden from users>",
+		"[+14 Production] [in this city] <when between [28] and [29] [生锈的产能]> <hidden from users>",
+		"[+15 Production] [in this city] <when between [30] and [31] [生锈的产能]> <hidden from users>",
+		"[+16 Production] [in this city] <when between [32] and [33] [生锈的产能]> <hidden from users>",
+		"[+17 Production] [in this city] <when between [34] and [35] [生锈的产能]> <hidden from users>",
+		"[+18 Production] [in this city] <when between [36] and [37] [生锈的产能]> <hidden from users>",
+		"[+19 Production] [in this city] <when between [38] and [39] [生锈的产能]> <hidden from users>",
+		"[+20 Production] [in this city] <when between [40] and [41] [生锈的产能]> <hidden from users>",
+		"[+21 Production] [in this city] <when between [42] and [43] [生锈的产能]> <hidden from users>",
+		"[+22 Production] [in this city] <when between [44] and [45] [生锈的产能]> <hidden from users>",
+		"[+23 Production] [in this city] <when between [46] and [47] [生锈的产能]> <hidden from users>",
+		"[+24 Production] [in this city] <when between [48] and [49] [生锈的产能]> <hidden from users>",
+		"[+25 Production] [in this city] <when between [50] and [51] [生锈的产能]> <hidden from users>",
+		"[+26 Production] [in this city] <when between [52] and [53] [生锈的产能]> <hidden from users>",
+		"[+27 Production] [in this city] <when between [54] and [55] [生锈的产能]> <hidden from users>",
+		"[+28 Production] [in this city] <when between [56] and [57] [生锈的产能]> <hidden from users>",
+		"[+29 Production] [in this city] <when between [58] and [59] [生锈的产能]> <hidden from users>",
+		"[+30 Production] [in this city] <when between [60] and [61] [生锈的产能]> <hidden from users>",
+		"[+31 Production] [in this city] <when between [62] and [63] [生锈的产能]> <hidden from users>",
+		"[+32 Production] [in this city] <when between [64] and [65] [生锈的产能]> <hidden from users>",
+		"[+33 Production] [in this city] <when between [66] and [67] [生锈的产能]> <hidden from users>",
+		"[+34 Production] [in this city] <when between [68] and [69] [生锈的产能]> <hidden from users>",
+		"[+35 Production] [in this city] <when between [70] and [71] [生锈的产能]> <hidden from users>",
+		"[+36 Production] [in this city] <when between [72] and [73] [生锈的产能]> <hidden from users>",
+		"[+37 Production] [in this city] <when between [74] and [75] [生锈的产能]> <hidden from users>",
+		"[+38 Production] [in this city] <when between [76] and [77] [生锈的产能]> <hidden from users>",
+		"[+39 Production] [in this city] <when between [78] and [79] [生锈的产能]> <hidden from users>",
+		"[+40 Production] [in this city] <when between [80] and [81] [生锈的产能]> <hidden from users>",
+		"[+41 Production] [in this city] <when between [82] and [83] [生锈的产能]> <hidden from users>",
+		"[+42 Production] [in this city] <when between [84] and [85] [生锈的产能]> <hidden from users>",
+		"[+43 Production] [in this city] <when between [86] and [87] [生锈的产能]> <hidden from users>",
+		"[+44 Production] [in this city] <when between [88] and [89] [生锈的产能]> <hidden from users>",
+		"[+45 Production] [in this city] <when between [90] and [91] [生锈的产能]> <hidden from users>",
+		"[+46 Production] [in this city] <when between [92] and [93] [生锈的产能]> <hidden from users>",
+		"[+47 Production] [in this city] <when between [94] and [95] [生锈的产能]> <hidden from users>",
+		"[+48 Production] [in this city] <when between [96] and [97] [生锈的产能]> <hidden from users>",
+		"[+49 Production] [in this city] <when between [98] and [99] [生锈的产能]> <hidden from users>",
+		"[+50 Production] [in this city] <when above [99] [生锈的产能]> <hidden from users>",
+		"Limited to [1] per Civilization"],
+	},
+	{
+		"name": "齿轮网络",
+		"replaces": "Factory",
+		"uniqueTo": "废弃蒸汽都市",
+		"cost": 360,
+		"production": 4,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Workshop",
+		"uniques": ["Provides [2] [Oil]"],
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredResource": "Coal",
+		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "坠落",
+		"cost": 95,
+		"uniques": ["Triggers a [自天空中坠落] event",
+		"Cost increases by [10] when built",
+		"Unbuildable <when below [1] [天上白]> <hidden from users>"
+		"Cannot be hurried",
+		"Cannot be purchased",
+		"Remove [坠落] [in this city] <hidden from users>",]
+	},
+	{
+		"name": "一年计划",
+		"replaces": "Walls",
+		"uniqueTo": "我们的天空",
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"cost": 135,
+		"maintenance": 2,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured",
+		"Free [无害特务] appears",
+		"Unsellable"]
+	},
+	{
+		"name": "典籍",
+		"replaces": "Library",
+		"uniqueTo": "我们的天空",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [2] population [in this city]",
+		"[+2 Science] <in cities with at least [2] [Population]>",
+		"Unbuildable <before adopting [Flight Fantasy]>"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "苦酒馆",
+		"uniqueTo": "临时酒馆",
+		"cost": 85,
+		"maintenance": 1,
+		"uniques": ["在这个城市内解锁所有的酿酒配方"],
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "制酿-桑格利亚酒",
+		"cost": 50,
+		"maintenance": 1,
+		"uniques": ["Unbuildable <in cities without a [苦酒馆]>",
+		"Provides [1] [桑格利亚酒]",
+		"Consumes [1] [Wine]",
+		"Consumes [1] [Citrus]"],
+	},
+	{
+		"name": "制酿-尊尼获加",
+		"cost": 50,
+		"maintenance": 1,
+		"uniques": ["Unbuildable <in cities without a [苦酒馆]>",
+		"Provides [1] [尊尼获加]",
+		"Consumes [1] [Wine]",
+		"Consumes [1] [Sugar]"],
+	},
+	{
+		"name": "制酿-苏合香酒",
+		"cost": 50,
+		"maintenance": 1,
+		"uniques": ["Unbuildable <in cities without a [苦酒馆]>",
+		"Provides [1] [苏合香酒]",
+		"Consumes [1] [Wine]",
+		"Consumes [1] [Spices]"],
+	},
+	{
+		"name": "制酿-红味美思",
+		"cost": 50,
+		"maintenance": 1,
+		"uniques": ["Unbuildable <in cities without a [苦酒馆]>",
+		"Provides [1] [红味美思]",
+		"Consumes [1] [Wine]",
+		"Consumes [1] [Salt]"],
+	},
+	{
+		"name": "制酿-特基拉日出",
+		"cost": 50,
+		"maintenance": 1,
+		"uniques": ["Unbuildable <in cities without a [苦酒馆]>",
+		"Provides [1] [特基拉日出]",
+		"Consumes [1] [Wine]",
+		"Consumes [1] [Incense]"],
+	},
+	{
+		"name": "制酿-松露鸡尾酒",
+		"cost": 50,
+		"maintenance": 1,
+		"uniques": ["Unbuildable <in cities without a [苦酒馆]>",
+		"Provides [1] [松露鸡尾酒]",
+		"Consumes [1] [Wine]",
+		"Consumes [1] [Truffles]"],
+	},
+	{
+		"name": "制酿-蓝带马爹利",
+		"cost": 50,
+		"maintenance": 1,
+		"uniques": ["Unbuildable <in cities without a [苦酒馆]>",
+		"Provides [1] [蓝带马爹利]",
+		"Consumes [1] [Wine]",
+		"Consumes [1] [Dyes]"],
+	},
+	{
+		"name": "制酿-伦敦干金",
+		"cost": 50,
+		"maintenance": 1,
+		"uniques": ["Unbuildable <in cities without a [苦酒馆]>",
+		"Provides [1] [伦敦干金]",
+		"Consumes [1] [Wine]",
+		"Consumes [1] [Copper]"],
+	},
+	{
+		"name": "制酿-萨泽拉克",
+		"cost": 50,
+		"maintenance": 1,
+		"uniques": ["Unbuildable <in cities without a [苦酒馆]>",
+		"Provides [1] [萨泽拉克]",
+		"Consumes [1] [Wine]",
+		"Consumes [1] [Pearls]"],
+	},
+	{
+		"name": "制酿-盘尼西林",//Penicillin
+		"cost": 50,
+		"maintenance": 1,
+		"uniques": ["Unbuildable <in cities without a [苦酒馆]>",
+		"Provides [1] [盘尼西林]",
+		"Consumes [1] [Wine]",
+		"Consumes [1] [Ivory]"],
+	},
+	{
+		"name": "制酿-白色俄罗斯",//White Russian
+		"cost": 50,
+		"maintenance": 1,
+		"uniques": ["Unbuildable <in cities without a [苦酒馆]>",
+		"Provides [1] [白色俄罗斯]",
+		"Consumes [1] [Wine]",
+		"Consumes [1] [Furs]"],
+	},
+	{
+		"name": "制酿-大都会",//Cosmopolitan
+		"cost": 50,
+		"maintenance": 1,
+		"uniques": ["Unbuildable <in cities without a [苦酒馆]>",
+		"Provides [1] [大都会]",
+		"Consumes [1] [Wine]",
+		"Consumes [1] [Gems]"],
+	},
+	{
+		"name": "制酿-金汤力",//Gin Tonic
+		"cost": 50,
+		"maintenance": 1,
+		"uniques": ["Unbuildable <in cities without a [苦酒馆]>",
+		"Provides [1] [金汤力]",
+		"Consumes [1] [Wine]",
+		"Consumes [1] [Gold Ore]"],
+	},
+	{
+		"name": "制酿-内格罗尼",//Negroni
+		"cost": 50,
+		"maintenance": 1,
+		"uniques": ["Unbuildable <in cities without a [苦酒馆]>",
+		"Provides [1] [内格罗尼]",
+		"Consumes [1] [Wine]",
+		"Consumes [1] [Silk]"],
+	},
+	{
+		"name": "制酿-威士忌可乐",//
+		"cost": 50,
+		"maintenance": 1,
+		"uniques": ["Unbuildable <in cities without a [苦酒馆]>",
+		"Provides [1] [威士忌可乐]",
+		"Consumes [1] [Wine]",
+		"Consumes [1] [Porcelain]"],
+	},
+	{
+		"name": "制酿-自由古巴",//
+		"cost": 50,
+		"maintenance": 1,
+		"uniques": ["Unbuildable <in cities without a [苦酒馆]>",
+		"Provides [1] [自由古巴]",
+		"Consumes [1] [Wine]",
+		"Consumes [1] [Silver]"],
+	},
+	{
+		"name": "制酿-一脱成名",//Naked and Famous
+		"cost": 50,
+		"maintenance": 1,
+		"uniques": ["Unbuildable <in cities without a [苦酒馆]>",
+		"Provides [1] [一脱成名]",
+		"Consumes [1] [Wine]",
+		"Consumes [1] [Marble]"],
+	},
+	{
+		"name": "制酿-血与沙",//Blood and Sand
+		"cost": 50,
+		"maintenance": 1,
+		"uniques": ["Unbuildable <in cities without a [苦酒馆]>",
+		"Provides [1] [血与沙]",
+		"Consumes [1] [Wine]",
+		"Consumes [1] [Cotton]"],
+	},
+	{
+		"name": "红鸣",
+		"replaces": "Water Mill",
+		"uniqueTo": "幼芽与群苗",
+		"maintenance": 2,
+		"food": 0
+		"production": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [River]",
+		"[+1 Food] from [River] tiles [in this city]"],
+		"requiredTech": "The Wheel"
+	},
+	{
+		"name": "识人术",
+		"cost": 50,
+		"uniques": ["Unbuildable"],
+	},
+	{
+		"name": "温泉图书馆",
+		"replaces": "Library",
+		"uniqueTo": "公共雪中之馆",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Science] per [2] population [in this city]",
+		"[+1 Science] [in all cities]"],
+		"requiredTech": "Writing"
+		},
+		{
+		"name": "鸽舍",
+		"replaces": "Courthouse",
+		"uniqueTo": "孤寂春天",
+		"maintenance": 4,
+		"hurryCostModifier": 50,
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>",
+			"Never destroyed when the city is captured"],
+		"requiredTech": "Mathematics"
+	},
+	{
+		"name": "落子",
+		"cost": 0,
+		"uniques": ["Unbuildable <when below [1] [赫麦拉谷]> <hidden from users>",
+		"Nullifies Growth [in this city]",
+		"Provides [1] [储备]",
+		"Remove [结生] [in this city] <hidden from users>",
+		"Unbuildable <in cities with a [结生]> <hidden from users>"]
+	},
+	{
+		"name": "结生",
+		"cost": 0,
+		"uniques": ["Unbuildable <when below [1] [赫麦拉谷]> <hidden from users>",
+		"[+100]% growth [in this city] <when above [0] [储备]>",
+		"Provides [-1] [储备]",
+		"Unbuildable <when below [1] [储备]>",
+		"Remove [落子] [in this city] <hidden from users>",
+		"Unbuildable <in cities with a [落子]> <hidden from users>"]
+	},
+	{
+		"name": "客厅",
+		"replaces": "Garden",
+		"uniqueTo": "冬季灰烬",
+		"uniques": ["[+25]% Great Person generation [in this city]", "[+1] population [in this city]"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Theology"
+	},
+	{
+		"name": "初级废料回收",
+		"cost": 0,
+		"uniques": ["Unbuildable <when below [2] [废料]>",
+		"Instantly consumes [2] [废料]",
+		"Gain [25]-[85] [Gold]",
+		"Remove [初级废料回收] [in this city] <hidden from users>"],
+	},
+	{
+		"name": "中级废料回收",
+		"cost": 0,
+		"uniques": ["Unbuildable <when below [5] [废料]>",
+		"Instantly consumes [5] [废料]",
+		"Gain [75]-[155] [Gold]",
+		"Gain [15]-[45] [Science]",
+		"Remove [中级废料回收] [in this city] <hidden from users>"],
+	},
+	{
+		"name": "高级废料回收",
+		"cost": 0,
+		"uniques": ["Unbuildable <when below [12] [废料]>",
+		"Instantly consumes [12] [废料]",
+		"Gain [135]-[265] [Gold]",
+		"Gain [45]-[70] [Science]",
+		"Gain [15]-[30] [Faith]",
+		"Remove [高级废料回收] [in this city] <hidden from users>"],
+	},
+	{
+		"name": "终级废料回收",
+		"cost": 0,
+		"uniques": ["Unbuildable <when below [500] [废料]>",
+		"Instantly consumes [500] [废料]",
+		"Free [神之主] appears",
+		"Remove [终级废料回收] [in this city] <hidden from users>"],
+	},
+	{
+		"name": "林兰歌剧院",
+		"cost": 106,
+		"uniques": ["Unbuildable <when below [1] [无处藏身]> <hidden from users>",
+		"Remove [林兰歌剧院] [in this city] <hidden from users>",
+		"可重复建造",
+		"[3] free [舞者] units appear",
+		"Free [舞者] appears <with [75]% chance>",
+		"[+50]% production cost <during the [Classical era]>",
+		"[+100]% production cost <during the [Medieval era]>",
+		"[+150]% production cost <during the [Renaissance era]>",
+		"[+200]% production cost <during the [Industrial era]>",
+		"[+250]% production cost <during the [Modern era]>",
+		"[+300]% production cost <during the [Atomic era]>",
+		"[+350]% production cost <during the [Information era]>",
+		"[+400]% production cost <during the [Future era]>"]
+	},
+	{
+		"name": "维护",
+		"replaces": "Courthouse",
+		"uniqueTo": "群星璀璨",
+		"maintenance": 4,
+		"hurryCostModifier": 50,
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>",
+			"[1] Unit Supply per [2] population [in this city]"],
+		"requiredTech": "Mathematics"
+	},
+	{
+		"name": "转化叶",
+		"cost": 0,
+		"uniques": ["Unbuildable <when below [1] [赤色黎明]> <hidden from users>",
+		"Provides [1] [光茫] <when above [0] [精致]>",
+		"Provides [-1] [精致] <when above [0] [精致]>",
+		"Limited to [1] per Civilization"]
+	},
+	{
+		"name": "“赠送礼品”",
+		"replaces": "The Great Library",
+		"uniqueTo": "玫瑰海",
+		"science": 3,
+		"culture": 1,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isWonder": true,
+		"requiredTech": "Writing",
+		"uniques": ["Free Technology", "Gain a free [Library] [in this city]"],
+		"quote": "那些机缘巧合，那些你生活中本不应该发生的事，那些你无论如何意料不到的极端，最终不是都发生了吗？那么我不明白你现在还在纠结什么。我换作你，我会丢下一切。"
+	},
+	{
+		"name": "星云乱团",
+		"replaces": "Circus",
+		"uniqueTo": "渴望病态",
+		"requiredNearbyImprovedResources": ["Ivory","Horses"],
+		"uniques": ["“保持原样”"],
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Trapping"
+	},
+	{
+		"name": "白日灯光",
+		"replaces": "Colosseum",
+		"uniqueTo": "渴望病态",
+		"uniques": ["“一切不发生改变”"],
+		"maintenance": 1,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "冤死者",
+		"replaces": "Workshop",
+		"uniqueTo": "死亡痕迹",
+		"maintenance": 2,
+		"production": 2,
+		"uniques": ["Enables conversion of city production to [Gold]"],
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "创作者回馈",
+		"replaces": "Monument",
+		"uniqueTo": "漫画协会",
+		"culture": 4,
+		"cost": 80,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "农场合法协议",
+		"cost": 0,
+		"uniques": ["Unbuildable <when below [1] [手续]>",
+		"Unbuildable <before discovering [Agriculture]>",
+		"Instantly consumes [1] [手续]",
+		"Creates a [Farm] improvement on a specific tile",
+		"Remove [农场合法协议] [in this city] <hidden from users>"]
+	},
+	{
+		"name": "矿井合法协议",
+		"cost": 0,
+		"uniques": ["Unbuildable <when below [1] [手续]>",
+		"Unbuildable <before discovering [Mining]>",
+		"Instantly consumes [1] [手续]",
+		"Creates a [Mine] improvement on a specific tile",
+		"Remove [矿井合法协议] [in this city] <hidden from users>"]
+	},
+	{
+		"name": "牧场合法协议",
+		"cost": 0,
+		"uniques": ["Unbuildable <when below [1] [手续]>",
+		"Unbuildable <before discovering [Animal Husbandry]>",
+		"Instantly consumes [1] [手续]",
+		"Creates a [Pasture] improvement on a specific tile",
+		"Remove [牧场合法协议] [in this city] <hidden from users>"]
+	},
+	{
+		"name": "渔船合法协议",
+		"cost": 0,
+		"uniques": ["Unbuildable <when below [1] [手续]>",
+		"Unbuildable <before discovering [Sailing]>",
+		"Instantly consumes [1] [手续]",
+		"Creates a [Fishing Boats] improvement on a specific tile",
+		"Remove [渔船合法协议] [in this city] <hidden from users>"]
+	},
+	{
+		"name": "猎场合法协议",
+		"cost": 0,
+		"uniques": ["Unbuildable <when below [1] [手续]>",
+		"Unbuildable <before discovering [Trapping]>",
+		"Instantly consumes [1] [手续]",
+		"Creates a [Camp] improvement on a specific tile",
+		"Remove [猎场合法协议] [in this city] <hidden from users>"]
+	},
+	{
+		"name": "种植园合法协议",
+		"cost": 0,
+		"uniques": ["Unbuildable <when below [1] [手续]>",
+		"Unbuildable <before discovering [Pottery]>",
+		"Instantly consumes [1] [手续]",
+		"Creates a [Plantation] improvement on a specific tile",
+		"Remove [种植园合法协议] [in this city] <hidden from users>"]
+	},
+	{
+		"name": "锯木场合法协议",
+		"cost": 0,
+		"uniques": ["Unbuildable <when below [1] [手续]>",
+		"Unbuildable <before discovering [Construction]>",
+		"Instantly consumes [1] [手续]",
+		"Creates a [Lumber mill] improvement on a specific tile",
+		"Remove [锯木场合法协议] [in this city] <hidden from users>"]
+	},
+	{
+		"name": "堡垒合法协议",
+		"cost": 0,
+		"uniques": ["Unbuildable <when below [1] [手续]>",
+		"Unbuildable <before discovering [Engineering]>",
+		"Instantly consumes [1] [手续]",
+		"Creates a [Fort] improvement on a specific tile",
+		"Remove [堡垒合法协议] [in this city] <hidden from users>"]
+	},
+	{
+		"name": "贸易站合法协议",
+		"cost": 0,
+		"uniques": ["Unbuildable <when below [1] [手续]>",
+		"Unbuildable <before discovering [Guilds]>",
+		"Instantly consumes [1] [手续]",
+		"Creates a [Trading post] improvement on a specific tile",
+		"Remove [贸易站合法协议] [in this city] <hidden from users>"]
+	},
+	{
+		"name": "油井合法协议",
+		"cost": 0,
+		"uniques": ["Unbuildable <when below [1] [手续]>",
+		"Unbuildable <before discovering [Biology]>",
+		"Instantly consumes [1] [手续]",
+		"Creates a [Oil well] improvement on a specific tile",
+		"Remove [油井合法协议] [in this city] <hidden from users>"]
+	},
+	{
+		"name": "海上油井合法协议",
+		"cost": 0,
+		"uniques": ["Unbuildable <when below [1] [手续]>",
+		"Unbuildable <before discovering [Refrigeration]>",
+		"Instantly consumes [1] [手续]",
+		"Creates a [Offshore Platform] improvement on a specific tile",
+		"Remove [海上油井合法协议] [in this city] <hidden from users>"]
+	},
+	{
+		"name": "新资源",
+		"replaces": "Aqueduct",
+		"uniqueTo": "最终联合",
+		"hurryCostModifier": 0,
+		"uniques": ["[60]% Food is carried over after population increases [in this city]"],
+		"requiredTech": "Engineering"
+	},
+	{
+		"name": "集雨棚",
+		"replaces": "Circus",
+		"uniqueTo": "秋夜街道",
+		"requiredNearbyImprovedResources": ["Ivory","Horses","Deer"],
+		"happiness": 3,
+		"hurryCostModifier": 25,
+		"requiredTech": "Trapping"
+	},
+	{
+		"name": "撰写堂",
+		"replaces": "Monument",
+		"uniqueTo": "阿莉娅教堂",
+		"culture": 1,
+		"faith": 1,
+		"cost": 36,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "一个未知的食物项目",
+		"uniques": ["Unbuildable",
+		"Triggers a global alert upon completion",
+		"Remove [一个未知的食物项目] [in this city] <hidden from users>"]
+	},
+	{
+		"name": "一个未知的产能项目",
+		"uniques": ["Unbuildable",
+		"Triggers a global alert upon completion",
+		"Remove [一个未知的产能项目] [in this city] <hidden from users>"]
+	},
+	{
+		"name": "一个未知的金钱项目",
+		"uniques": ["Unbuildable",
+		"Triggers a global alert upon completion",
+		"Remove [一个未知的金钱项目] [in this city] <hidden from users>"]
+	},
+	{
+		"name": "一个未知的快乐项目",
+		"uniques": ["Unbuildable",
+		"Triggers a global alert upon completion",
+		"Remove [一个未知的快乐项目] [in this city] <hidden from users>"]
+	},
+	{
+		"name": "一个未知的文化项目",
+		"uniques": ["Unbuildable",
+		"Triggers a global alert upon completion",
+		"Remove [一个未知的文化项目] [in this city] <hidden from users>"]
+	},
+	{
+		"name": "一个未知的科研项目",
+		"uniques": ["Unbuildable",
+		"Triggers a global alert upon completion",
+		"Remove [一个未知的科研项目] [in this city] <hidden from users>"]
+	},
+	{
+		"name": "一个未知的信仰项目",
+		"uniques": ["Unbuildable",
+		"Triggers a global alert upon completion",
+		"Remove [一个未知的信仰项目] [in this city] <hidden from users>"]
+	},
+	{
+		"name": "一座新的城市",
+		"uniques": ["Unbuildable",
+		"Triggers a global alert upon completion",
+		"Remove [一座新的城市] [in this city] <hidden from users>"]
+	},
+	{
+		"name": "权限处理器",
+		"replaces": "Library",
+		"uniqueTo": "安息仪器",
+		"cost": 0,
+		"maintenance": 2,
+		"uniques": ["[+1 Science] per [2] population [in this city]",
+		"Automatically built in all cities where it is buildable"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "四棱柱",
+		"replaces": "Colosseum",
+		"uniqueTo": "月社",
+		"maintenance": 1,
+		"happiness": 2,
+		"gold": 2,
+		"uniques": ["New [Military] units start with [15] Experience [in this city]"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "旧电台",
+		"replaces": "Broadcast Tower",
+		"uniqueTo": "索菲娅旅行社",
+		"culture": 3,
+		"percentStatBonus": {"culture": 33},
+		"requiredBuilding": "Museum",
+		"maintenance": 0,
+		"requiredTech": "Radio",
+		"uniques": ["Destroyed when the city is captured",
+		"[+1 Culture] from [Bonus resource] tiles [in this city]"
+		]
+	},
+	{
+		"name": "堆积仓",
+		"production": 1,
+		"cost": 75,
+		"maintenance": 1,
+		"requiredTech": "Calendar",
+		"uniques": ["[+1 Production] <in cities with at least [4] [Population]>",
+		"[+1 Production] <in cities with at least [7] [Population]>"
+		]
+	},
+	{
+		"name": "查询办理处",
+		"replaces": "Walls",
+		"uniqueTo": "档案管理所",
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured",
+		"Cost increases by [-6] per owned city",
+		"Reveal up to [All] [City center] within a [20] tile radius"]
+	},
+	{
+		"name": "照亮",
+		"replaces": "Lighthouse",
+		"uniqueTo": "往昔回忆",
+		"cost": 60,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
+			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Production] from [Fish] tiles [in this city]" ],
+		"requiredTech": "Optics"
+	},
+	{
+		"name": "阴云密布",
+		"cost": 0,
+		"uniques": ["Comment [立即开启时间停止]",
+		"Instantly provides [5] [通用计数器] <hidden from users>",
+		"Instantly consumes [1] [暴风雨]",
+		"Unbuildable <when below [1] [暴风雨]> <hidden from users>",
+		"Unbuildable <when above [0] [通用计数器]> <hidden from users>",
+		"Triggers a global alert upon completion"],
+	},
+	{
+		"name": "人物传记",
+		"replaces": "National Epic",
+		"uniqueTo": "午夜阈值",
+		"cost": 125,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+25]% Great Person generation [in this city]", "Cost increases by [15] per owned city",
+		"Instantly provides [3] [暴风雨]",
+		],
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "民族荣誉",
+	    "cost": 0,
+		"uniques": ["Unbuildable",
+		"New [Military] units start with [15] Experience [in this city]"]
+	},
+	{
+		"name": "幼观",
+	    "cost": 25,
+		"uniques": ["[+1 Faith] [in this city] <during the [Ancient era]>",
+		"[+1 Production] [in this city] <starting from the [Classical era]>",
+		"Limited to [1] per Civilization"
+		]
+	},
+	{
+		"name": "候鸟迁徙-初期",
+	    "cost": 0,
+		"uniques": ["Unbuildable <hidden from users>",
+		"Comment [锈铜的号角在云层裂隙吹响时\n十万片翎羽掀翻了冬至的砝码\n灰翅碾碎纬度线上凝固的琥珀\n星群坠入迁徙者瞳孔的罗盘里]",
+		]
+	},
+	{
+		"name": "候鸟迁徙-前期",
+	    "cost": 0,
+		"uniques": ["Unbuildable <hidden from users>",
+		"Comment [天穹经卷被铁翼裁成流火绶带\n候鸟衔着极光淬炼的秘银钥匙\n刺穿季风编纂的二十四种历法\n在潮汐锁骨间播种磁场的谶语]",
+		]
+	},
+	{
+		"name": "候鸟迁徙-中期",
+	    "cost": 0,
+		"uniques": ["Unbuildable <hidden from users>",
+		"Comment [诸神黄昏的釉彩漫过翼梢刹那\n候鸟驮着被月相孵化的恒星卵\n用脊椎丈量创世纪残留的墨迹\n每根绒羽都镌刻着星系的遗嘱]",
+		]
+	},
+	{
+		"name": "候鸟迁徙-后期",
+	    "cost": 0,
+		"uniques": ["Unbuildable <hidden from users>",
+		"Comment [它们把朝圣途中的晨昏线熔铸成\n悬挂在黄道十二宫门环上的银铃\n当翼膜擦亮被冰河纪封印的编钟\n大地便裂开青铜时代锈蚀的喉舌]",
+		]
+	},
+	{
+		"name": "候鸟迁徙-末期",
+	    "cost": 0,
+		"uniques": ["Unbuildable <hidden from users>",
+		"Comment [候鸟用楔形文字在云碑刻下谶言\n迁徙是诸神遗落的素银螺旋楼梯\n每振翅便剥落一层时空的鎏金漆\n直到把整个宇宙卷成发光的茧房]",
+		]
+	},
+	{
+		"name": "归处",
+	    "cost": 0,
+		"uniques": ["Unbuildable <hidden from users>",
+		"[-1] population [in this city] <hidden from users>",
+		"[+1] population [in capital] <hidden from users>",
+		"Comment [当迁徙的锋刃将地平线锻成竖琴\n所有季候的青铜在羽翼下沸腾倒流\n永恒以候鸟脊椎为轴开始自我坍缩\n天地如一枚银卵 正被振翅声层层剥开]",
+		"Instantly provides [1] [候鸟入居] <hidden from users>",
+		]
+	},
+	{
+		"name": "候鸟迁徙-完成",
+	    "cost": 0,
+		"uniques": ["Unbuildable <hidden from users>",
+		"Remove [候鸟迁徙-初期] [in this city] <hidden from users>",
+		"Remove [候鸟迁徙-前期] [in this city] <hidden from users>",
+		"Remove [候鸟迁徙-中期] [in this city] <hidden from users>",
+		"Remove [候鸟迁徙-后期] [in this city] <hidden from users>",
+		"Remove [候鸟迁徙-末期] [in this city] <hidden from users>",
+		"Remove [归处] [in this city] <hidden from users>",
+		"Remove [候鸟迁徙-完成] [in this city] <hidden from users>",
+		]
+	},
+	{
+		"name": "哪里是家",
+		"replaces": "Market",
+		"uniqueTo": "候鸟",
+		"production": 1,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 15},
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "优美",
+		"culture": 2,
+		"cost": 40,
+        "uniques": ["Only available <when between [0] and [0] [态度]> <hidden from users>",
+        "Instantly provides [1] [态度] <hidden from users>",
+        "Comment [宁静的优美\n必要的建筑，未建造时将无法组建[Settler]]",
+		]
+	},
+	{
+		"name": "暗淡",
+		"culture": 2,
+		"cost": 40,
+        "uniques": ["Only available <when between [0] and [0] [态度]> <hidden from users>",
+        "Instantly consumes [1] [态度] <hidden from users>",
+        "Comment [混乱的暗淡\n必要的建筑，未建造时将无法组建[Settler]]",
+		]
+	},
+]

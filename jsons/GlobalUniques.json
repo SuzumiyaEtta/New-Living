@@ -1,0 +1,68 @@
+{
+    "name": "Global uniques",
+    "uniques": [
+        "[-75]% growth [in all cities] <when between [-10] and [-1] Happiness>",
+        "Nullifies Growth [in all cities] <when below [-10] Happiness>",
+        "[-50]% [Production] [in all cities] <when below [-10] Happiness>",
+        "[-33]% Strength <for [All] units> <when below [-10] Happiness>",
+        "Cannot build [Settler] units <when below [-10] Happiness>",
+        "Rebel units may spawn <when below [-20] Happiness> <before adopting [虚无主义]>",
+        "[-1] Sight <for [Embarked] units>",
+        "[+10]% Strength <during the [Ancient era]> <for [舞者] units>",
+		"[+70]% Strength <during the [Classical era]> <for [舞者] units>",
+		"[+150]% Strength <during the [Medieval era]> <for [舞者] units>",
+		"[+210]% Strength <during the [Renaissance era]> <for [舞者] units>",
+		"[+270]% Strength <during the [Industrial era]> <for [舞者] units>",
+		"[+330]% Strength <during the [Modern era]> <for [舞者] units>",
+		"[+390]% Strength <during the [Atomic era]> <for [舞者] units>",
+		"[+450]% Strength <during the [Information era]> <for [舞者] units>",
+		"[+510]% Strength <during the [Future era]> <for [舞者] units>",
+		"[All] units gain the [世界处理器] promotion",
+		"[+2] Sight <for [Scout] units> <after adopting [观察者论]>",
+		"[+2] Sight <for [Siege] units> <after adopting [世界观]>",
+        "[+15]% Strength <when attacking> <for [All] units> <when fighting in [Hill] tiles> <after adopting [适应性]>",
+        "[+15]% Strength <for [Melee] units> <when defending> <when adjacent to a [Melee] unit> <after adopting [铁律]>",
+        "[2] Unit Supply <after adopting [军事义务]>",
+        "[+100]% Strength <when defending> <in [City center] tiles> <for [Ranged] units> <after adopting [承载体]>",
+        "[+20]% Strength <vs [Ranged] units> <for [Melee] units> <when attacking> <after adopting [猎杀]>",
+        "[-10]% Strength <for [All] units> <when attacking> <after adopting [反战]>",
+        "[+10]% Strength <for [All] units> <when defending> <after adopting [反战]>",
+        "[+15]% Strength <for [Ranged] units> <when attacking> <vs cities> <after adopting [闪电战]>",
+        "[+20]% Strength <for [Mounted] units> <vs cities> <after adopting [征服者威望]>",
+        "[+25]% Strength <vs [Mounted] units> <for [Spearman] units> <after adopting [征服者威望]>",
+        "[+100]% Strength <for [Civilian] units> <after adopting [物语]>",
+        "[+1] Movement <for [Worker] units> <after adopting [自由活动]>",
+        "[+1] Movement <for [Settler] units> <after adopting [自由活动]>",
+        "[+20]% Strength <for [Land] units> <when adjacent to a [Water] unit> <after adopting [海陆空]>",
+        "[+20]% Strength <for [Land] units> <when adjacent to a [Air] unit> <after adopting [海陆空]>",
+        "[+20]% Strength <for [Water] units> <when adjacent to a [Land] unit> <after adopting [海陆空]>",
+        "[+20]% Strength <for [Water] units> <when adjacent to a [Air] unit> <after adopting [海陆空]>",
+        "[+20]% Strength <for [Air] units> <when adjacent to a [Land] unit> <after adopting [海陆空]>",
+        "[+20]% Strength <for [Air] units> <when adjacent to a [Water] unit> <after adopting [海陆空]>",
+        "[+50]% Strength <for [Military] units> <vs cities> <when defending> <after adopting [通信中断]>",
+        "[+33]% Strength <when attacking> <for [All] units> <when below [-10] Happiness> <before adopting [Parallel Policies Complete]> <after adopting [虚无主义]>",
+        "All newly-trained [Civilian] units [in all cities] receive the [囚禁] promotion <after adopting [获罪]> <during the [Ancient era]>",
+        "[-100]% City-State Influence degradation <when at war> <after adopting [挽歌]>",
+        "Each city founded increases culture cost of policies [33]% less than normal <after adopting [统治者认可]>",
+        "[-25]% construction time for [All] improvements <after adopting [连贯动作]>",
+        "Earn [50]% of killed [All] unit's [Strength] as [Science] <for [Siege] units> <after adopting [世界观]>",
+        "Receive triple Gold from Barbarian encampments and pillaging Cities <after adopting [人工宝藏]>",
+        "[+15]% Strength <for [All] units> <in [River] tiles> <after adopting [沿河突击]>",
+        "[+1] Movement <for [Spearman] units> <after adopting [强调]>",
+        "[+1] Movement <for [Pikeman] units> <after adopting [强调]>",
+        "[+20]% Strength <when defending> <for [Archery] units> <in [Hill] tiles> <after adopting [免疫力]>",
+        // TODO: Implement the uniques below
+        // "[+20]% [Culture] [in all cities] <during a golden age>",
+        // "[+20]% [Production] [in all cities] <during a golden age>",
+
+        // "[+10]% growth [in all cities] <during We Love The King Day>",
+
+        // "Nullifies All Yield <while is in resistance>",
+
+        // "[-25]% [Science] [in pupetted cities]" -- Imo cityFilters should ideally become conditionals anyway
+        // "[-25]% [Culture] [in pupetted cities]"
+
+        // "[+20]% [Production] [in cities connected via railroad]"
+        // something something unit supply
+    ]
+}
