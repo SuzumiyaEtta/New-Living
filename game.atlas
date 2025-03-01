@@ -1,0 +1,1755 @@
+game.png
+size: 1280, 1280
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+NationIcons/东方城市群
+  rotate: false
+  xy: 0, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/战时黎明
+  rotate: false
+  xy: 64, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/H-A-B
+  rotate: false
+  xy: 0, 448
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/战略偏好-选择-开启
+  rotate: false
+  xy: 192, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/战略偏好-选择-关闭
+  rotate: false
+  xy: 256, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/战略偏好：近程
+  rotate: false
+  xy: 320, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/战略偏好：远程
+  rotate: false
+  xy: 384, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/战略偏好：守城
+  rotate: false
+  xy: 448, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/主动侦查
+  rotate: false
+  xy: 512, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/焚毁的花园
+  rotate: false
+  xy: 512, 320
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/精华
+  rotate: false
+  xy: 512, 320
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/草木天堂
+  rotate: false
+  xy: 0, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ImprovementIcons/创造空间
+  rotate: false
+  xy: 64, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/鼠疫
+  rotate: false
+  xy: 64, 256
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/延迟毒物
+  rotate: false
+  xy: 192, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/不再为无辜者哭丧
+  rotate: false
+  xy: 256, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/寒疾
+  rotate: false
+  xy: 64, 256
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/绽放之日
+  rotate: false
+  xy: 384, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/血纹章
+  rotate: false
+  xy: 448, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/“恶鬼”
+  rotate: false
+  xy: 128, 448
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/最终答案
+  rotate: false
+  xy: 576, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/耻辱
+  rotate: false
+  xy: 0, 128
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/重生
+  rotate: false
+  xy: 64, 128
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/回廊
+  rotate: false
+  xy: 128, 128
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/恐惧心理
+  rotate: false
+  xy: 128, 320
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/死灰
+  rotate: false
+  xy: 256, 128
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/垢病
+  rotate: false
+  xy: 320, 128
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/复苏
+  rotate: false
+  xy: 384, 128
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Parallel Policies
+  rotate: false
+  xy: 448, 128
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Slow Heating Type
+  rotate: false
+  xy: 512, 128
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Flight Fantasy
+  rotate: false
+  xy: 576, 128
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Sunrise Carnival
+  rotate: false
+  xy: 64, 192
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Ring Volcano Fortress
+  rotate: false
+  xy: 0, 192
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Emphasis
+  rotate: false
+  xy: 128, 192
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyIcons/Parallel Policies
+  rotate: false
+  xy: 448, 128
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyIcons/Slow Heating Type
+  rotate: false
+  xy: 512, 128
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyIcons/Flight Fantasy
+  rotate: false
+  xy: 576, 128
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyIcons/Sunrise Carnival
+  rotate: false
+  xy: 64, 192
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyIcons/Ring Volcano Fortress
+  rotate: false
+  xy: 0, 192
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyIcons/Emphasis
+  rotate: false
+  xy: 128, 192
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ResourceIcons/荣誉
+  rotate: false
+  xy: 512, 448
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/废弃蒸汽都市
+  rotate: false
+  xy: 192, 192
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/五区工人
+  rotate: false
+  xy: 576, 384
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ResourceIcons/生锈的产能
+  rotate: false
+  xy: 320, 192
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/齿轮网络
+  rotate: false
+  xy: 384, 192
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/废弃的转化炉
+  rotate: false
+  xy: 448, 192
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/废弃的巨型工厂
+  rotate: false
+  xy: 512, 192
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ResourceIcons/赫菲斯托斯石像
+  rotate: false
+  xy: 576, 192
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/我们的天空
+  rotate: false
+  xy: 0, 320
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/特务
+  rotate: false
+  xy: 192, 256
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/无害特务
+  rotate: false
+  xy: 192, 256
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/典籍
+  rotate: false
+  xy: 256, 320
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/一年计划
+  rotate: false
+  xy: 320, 256
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/神之主
+  rotate: false
+  xy: 384, 320
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/坠落
+  rotate: false
+  xy: 448, 256
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/被动侦查
+  rotate: false
+  xy: 576, 256
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ResourceIcons/鼠疫-绽放之日
+  rotate: false
+  xy: 64, 384
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ResourceIcons/荣誉计数器
+  rotate: false
+  xy: 64, 384
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ResourceIcons/天上白
+  rotate: false
+  xy: 64, 384
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ResourceIcons/战略重心
+  rotate: false
+  xy: 64, 384
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ResourceIcons/绽放
+  rotate: false
+  xy: 64, 384
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ResourceIcons/战略偏好-近程
+  rotate: false
+  xy: 64, 384
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ResourceIcons/战略偏好-远程
+  rotate: false
+  xy: 64, 384
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ResourceIcons/战略偏好-守城
+  rotate: false
+  xy: 64, 384
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ResourceIcons/战略偏好-开关
+  rotate: false
+  xy: 64, 384
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/临时酒馆
+  rotate: false
+  xy: 192, 384
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/制酿
+  rotate: false
+  xy: 192, 384
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/苦酒馆
+  rotate: false
+  xy: 320, 384
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/“有利”
+  rotate: false
+  xy: 448, 384
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/公共雪中之馆
+  rotate: false
+  xy: 256, 448
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ResourceIcons/雪馆
+  rotate: false
+  xy: 384, 448
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/幼芽与群苗
+  rotate: false
+  xy: 64, 512
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/阶梯
+  rotate: false
+  xy: 64, 512
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ResourceIcons/阶梯阵距
+  rotate: false
+  xy: 192, 512
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/红鸣
+  rotate: false
+  xy: 320, 512
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/金属流域
+  rotate: false
+  xy: 448, 512
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/识人术
+  rotate: false
+  xy: 576, 512
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/莉莉
+  rotate: false
+  xy: 0, 576
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/温泉图书馆
+  rotate: false
+  xy: 128, 576
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ResourceIcons/废料
+  rotate: false
+  xy: 256, 576
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/铜制品
+  rotate: false
+  xy: 384, 576
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/裁剪
+  rotate: false
+  xy: 384, 576
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/裁剪-近战
+  rotate: false
+  xy: 384, 576
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/裁剪-远程
+  rotate: false
+  xy: 384, 576
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ImprovementIcons/制工厂
+  rotate: false
+  xy: 512, 576
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/被组装者
+  rotate: false
+  xy: 640, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/孤寂春天
+  rotate: false
+  xy: 768, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/鸽舍
+  rotate: false
+  xy: 896, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ImprovementIcons/霞云
+  rotate: false
+  xy: 1024, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/涩雨
+  rotate: false
+  xy: 768, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Depression Policies
+  rotate: false
+  xy: 1152, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyIcons/Depression Policies
+  rotate: false
+  xy: 1152, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Come Home
+  rotate: false
+  xy: 704, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyIcons/Come Home
+  rotate: false
+  xy: 704, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Spontaneous Election
+  rotate: false
+  xy: 832, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyIcons/Spontaneous Election
+  rotate: false
+  xy: 832, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Invalid Meeting
+  rotate: false
+  xy: 960, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyIcons/Invalid Meeting
+  rotate: false
+  xy: 960, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Golden Cage
+  rotate: false
+  xy: 1088, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyIcons/Golden Cage
+  rotate: false
+  xy: 1088, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Emergency Affairs Handling
+  rotate: false
+  xy: 1216, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyIcons/Emergency Affairs Handling
+  rotate: false
+  xy: 1216, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/冬季灰烬
+  rotate: false
+  xy: 768, 128
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/结生
+  rotate: false
+  xy: 1024, 128
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/落子
+  rotate: false
+  xy: 1152, 128
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ResourceIcons/储备
+  rotate: false
+  xy: 896, 128
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/客厅
+  rotate: false
+  xy: 704, 192
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/迁异
+  rotate: false
+  xy: 832, 192
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/初级废料回收
+  rotate: false
+  xy: 960, 192
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/中级废料回收
+  rotate: false
+  xy: 1088, 192
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/高级废料回收
+  rotate: false
+  xy: 1216, 192
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/终级废料回收
+  rotate: false
+  xy: 768, 256
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Improvement Policies
+  rotate: false
+  xy: 896, 256
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyIcons/Improvement Policies
+  rotate: false
+  xy: 896, 256
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Empirical Improvement
+  rotate: false
+  xy: 1024, 256
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyIcons/Empirical Improvement
+  rotate: false
+  xy: 1024, 256
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Harvest
+  rotate: false
+  xy: 1152, 256
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyIcons/Harvest
+  rotate: false
+  xy: 1152, 256
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Alternative
+  rotate: false
+  xy: 704, 320
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyIcons/Alternative
+  rotate: false
+  xy: 704, 320
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Blood Field
+  rotate: false
+  xy: 832, 320
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyIcons/Blood Field
+  rotate: false
+  xy: 832, 320
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Super Empirical Improvement
+  rotate: false
+  xy: 960, 320
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+PolicyIcons/Super Empirical Improvement
+  rotate: false
+  xy: 960, 320
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/群星璀璨
+  rotate: false
+  xy: 1088, 320
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/舞者
+  rotate: false
+  xy: 1216, 320
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/林兰歌剧院
+  rotate: false
+  xy: 768, 384
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/维护
+  rotate: false
+  xy: 896, 384
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/引领者
+  rotate: false
+  xy: 1024, 384
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/黎明古堡
+  rotate: false
+  xy: 1152, 384
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ResourceIcons/光茫
+  rotate: false
+  xy: 704, 448
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ResourceIcons/精致
+  rotate: false
+  xy: 832, 448
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/黑渔船
+  rotate: false
+  xy: 960, 448
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/“释放”
+  rotate: false
+  xy: 1088, 448
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/转化叶
+  rotate: false
+  xy: 1216, 448
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/黎明之声
+  rotate: false
+  xy: 1152, 384
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/玫瑰海
+  rotate: false
+  xy: 768, 512
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/有刺
+  rotate: false
+  xy: 768, 512
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/无刺
+  rotate: false
+  xy: 768, 512
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/“赠送礼品”
+  rotate: false
+  xy: 1024, 512
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/爱莉灯塔
+  rotate: false
+  xy: 896, 512
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/渴望病态
+  rotate: false
+  xy: 1152, 512
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/星云乱团
+  rotate: false
+  xy: 640, 576
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/白日灯光
+  rotate: false
+  xy: 64, 640
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/死亡痕迹
+  rotate: false
+  xy: 192, 640
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/冤死者
+  rotate: false
+  xy: 320, 640
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/主要力量
+  rotate: false
+  xy: 448, 640
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/死亡印记-近战
+  rotate: false
+  xy: 192, 640
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/死亡印记-远程
+  rotate: false
+  xy: 192, 640
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/死亡印记-近战-附属晋升
+  rotate: false
+  xy: 192, 640
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/死亡印记-远程-附属晋升
+  rotate: false
+  xy: 192, 640
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/漫画协会
+  rotate: false
+  xy: 576, 640
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/创作者回馈
+  rotate: false
+  xy: 832, 640
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/“幕后”
+  rotate: false
+  xy: 704, 640
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/会员
+  rotate: false
+  xy: 576, 640
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/跨时空对话
+  rotate: false
+  xy: 960, 640
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/结构物质
+  rotate: false
+  xy: 1088, 640
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/“尽头”
+  rotate: false
+  xy: 1216, 640
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/最终联合
+  rotate: false
+  xy: 0, 704
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ResourceIcons/手续
+  rotate: false
+  xy: 128, 704
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/农场合法协议
+  rotate: false
+  xy: 256, 704
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/矿井合法协议
+  rotate: false
+  xy: 384, 704
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/牧场合法协议
+  rotate: false
+  xy: 512, 704
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/渔船合法协议
+  rotate: false
+  xy: 640, 704
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/猎场合法协议
+  rotate: false
+  xy: 768, 704
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/种植园合法协议
+  rotate: false
+  xy: 896, 704
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/锯木场合法协议
+  rotate: false
+  xy: 1024, 704
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/堡垒合法协议
+  rotate: false
+  xy: 1152, 704
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/贸易站合法协议
+  rotate: false
+  xy: 64, 768
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/油井合法协议
+  rotate: false
+  xy: 192, 768
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/海上油井合法协议
+  rotate: false
+  xy: 320, 768
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/替代品
+  rotate: false
+  xy: 448, 768
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/新资源
+  rotate: false
+  xy: 576, 768
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/秋夜街道
+  rotate: false
+  xy: 704, 768
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/淋雨
+  rotate: false
+  xy: 832, 768
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/集雨棚
+  rotate: false
+  xy: 960, 768
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/迷失
+  rotate: false
+  xy: 704, 768
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/行走
+  rotate: false
+  xy: 704, 768
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/雨童话
+  rotate: false
+  xy: 1088, 768
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/旧都城的骑士
+  rotate: false
+  xy: 1216, 768
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/公主
+  rotate: false
+  xy: 0, 832
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/公主能力
+  rotate: false
+  xy: 0, 832
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/阿莉娅教堂
+  rotate: false
+  xy: 128, 832
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/诺伊莎
+  rotate: false
+  xy: 256, 832
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/撰写堂
+  rotate: false
+  xy: 384, 832
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ResourceIcons/圣洁
+  rotate: false
+  xy: 512, 832
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/安息仪器
+  rotate: false
+  xy: 640, 832
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/一个未知的食物项目
+  rotate: false
+  xy: 768, 832
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/一个未知的产能项目
+  rotate: false
+  xy: 896, 832
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/一个未知的金钱项目
+  rotate: false
+  xy: 1024, 832
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/一个未知的快乐项目
+  rotate: false
+  xy: 1152, 832
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/一个未知的文化项目
+  rotate: false
+  xy: 64, 896
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/一个未知的科研项目
+  rotate: false
+  xy: 192, 896
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/一个未知的信仰项目
+  rotate: false
+  xy: 320, 896
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/一座新的城市
+  rotate: false
+  xy: 448, 896
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/圣凯尔斯
+  rotate: false
+  xy: 576, 896
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/权限处理器
+  rotate: false
+  xy: 704, 896
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/林兰游击队
+  rotate: false
+  xy: 832, 896
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/巷战
+  rotate: false
+  xy: 832, 896
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/阻击战
+  rotate: false
+  xy: 832, 896
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/转移
+  rotate: false
+  xy: 960, 896
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/非法武装
+  rotate: false
+  xy: 1088, 896
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/月社
+  rotate: false
+  xy: 1216, 896
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/睦月当空
+  rotate: false
+  xy: 0, 960
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/四棱柱
+  rotate: false
+  xy: 128, 960
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/档案管理所
+  rotate: false
+  xy: 256, 960
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/收纳
+  rotate: false
+  xy: 384, 960
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/查询办理处
+  rotate: false
+  xy: 512, 960
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/陵园
+  rotate: false
+  xy: 640, 960
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/那把枪
+  rotate: false
+  xy: 768, 960
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/挽救
+  rotate: false
+  xy: 896, 960
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/索菲娅旅行社
+  rotate: false
+  xy: 1024, 960
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/旧电台
+  rotate: false
+  xy: 1152, 960
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/《镰刀》
+  rotate: false
+  xy: 64, 1024
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/堆积仓
+  rotate: false
+  xy: 192, 1024
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/认知计划
+  rotate: false
+  xy: 320, 1024
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/自伤
+  rotate: false
+  xy: 320, 1024
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/囚犯
+  rotate: false
+  xy: 448, 1024
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/卡拉苏火车
+  rotate: false
+  xy: 576, 1024
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/往昔回忆
+  rotate: false
+  xy: 704, 1024
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/印刻
+  rotate: false
+  xy: 704, 1024
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/糟糕的船
+  rotate: false
+  xy: 832, 1024
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/照亮
+  rotate: false
+  xy: 960, 1024
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/午夜阈值
+  rotate: false
+  xy: 1088, 1024
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ResourceIcons/暴风雨
+  rotate: false
+  xy: 1216, 1024
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/阴云密布
+  rotate: false
+  xy: 0, 1088
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/人物传记
+  rotate: false
+  xy: 128, 1088
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/猫枪
+  rotate: false
+  xy: 256, 1088
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/世界处理器
+  rotate: false
+  xy: 384, 1088
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/海豚娘
+  rotate: false
+  xy: 512, 1088
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/自由工人
+  rotate: false
+  xy: 640, 1088
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/洋流追随者
+  rotate: false
+  xy: 768, 1088
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/幼观
+  rotate: false
+  xy: 896, 1088
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/民族荣誉
+  rotate: false
+  xy: 1024, 1088
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/囚禁
+  rotate: false
+  xy: 1152, 1088
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NationIcons/候鸟
+  rotate: false
+  xy: 64, 1152
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/候鸟迁徙-初期
+  rotate: false
+  xy: 192, 1152
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/候鸟迁徙-前期
+  rotate: false
+  xy: 192, 1152
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/候鸟迁徙-中期
+  rotate: false
+  xy: 192, 1152
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/候鸟迁徙-后期
+  rotate: false
+  xy: 192, 1152
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/候鸟迁徙-末期
+  rotate: false
+  xy: 192, 1152
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/归处
+  rotate: false
+  xy: 192, 1152
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/候鸟迁徙-完成
+  rotate: false
+  xy: 192, 1152
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/鸟冀
+  rotate: false
+  xy: 320, 1152
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/哪里是家
+  rotate: false
+  xy: 448, 1152
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/优美
+  rotate: false
+  xy: 576, 1152
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/暗淡
+  rotate: false
+  xy: 704, 1152
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/轮车
+  rotate: false
+  xy: 832, 1152
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/守卫
+  rotate: false
+  xy: 960, 1152
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+
+
+
+
+
+
+
